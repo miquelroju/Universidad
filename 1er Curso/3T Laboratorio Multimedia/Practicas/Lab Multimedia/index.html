@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+</body>
+
+<script>
+    function Punt(x,y){
+        this.x=x;
+        this.y=y;
+    }
+
+    Punt.distanciaPunts = function(pa, pb) {
+        var dx = pa.x - pb.x;
+        var dy = pa.y - pb.y;
+        return Marth.sqrt(dx*dx + dy*dy);
+    }
+
+    const puntA = new Punt(10,20);
+    const puntB = new Punt(25,50);
+
+    console.log("La distancia entre el punt A i el punt B es: " + Punt.distanciaPunts(puntA, puntB));
+
+    function Rectangle(amplada, alcada, posicio) {
+        this.amplada = amplada;
+        this.alcada = alcada;
+        this.posicio = posicio;
+    }
+
+    Rectangle.prototype.area = function() {
+        return this.amplada * this.alcada;
+    }
+
+    var r = new Rectangle(10, 10, puntA);
+    console.log("L'area es: " + r.area);
+
+
+</script>
+
+</html>

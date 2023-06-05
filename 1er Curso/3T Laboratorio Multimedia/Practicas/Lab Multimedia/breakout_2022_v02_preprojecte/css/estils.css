@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+}
+
+#principal {
+	width: 960px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+#joc {
+	position: relative;
+	margin-top: 40px;
+	width: 740px;
+	height: 400px;
+	background: url(../fotos/fondoJuego.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+#inici,
+#fi {
+	position: center;
+	left: 275px;
+	width: 400px;
+	height: 300px;
+	margin: 120px auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	border: thick #990 solid;
+	border-radius: 25px;
+	opacity: 0.9;
+}
+
+.dreta {
+	text-align: right;
+}
+
+#game {
+	background-color: #eee;
+	/* color gris clar  */
+	border: #666 50px solid;
+	border-bottom-width: 0;
+	display: block;
+	margin: 0 auto;
+}
+
+#capçalera {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.2em;
+	background-color: #A3A352;
+	/* rgb(163,163,82) */
+	height: 200px;
+	border-radius: 25px;
+}
+body{
+	color: white;
+	background: url(../fotos/arcade-game.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+button{
+	margin-top: 1%;
+	padding: 4px 100px;
+	background-color: rgb(242, 242, 143);	
+}
+button:hover {
+	background-color:red;
+}

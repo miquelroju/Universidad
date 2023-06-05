@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29B25A2B-1EEB-E632-5627-4DD40692BC78" name="JUGADOR">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>B7D7C75F-5AFE-6DC3-5B62-64DE94765DA7</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="994C3E2A-64C9-EC19-2DE6-70AE41441DE8">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>7952BDFF-848C-93AB-1304-052675B6EFC4</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="71AD5812-63F3-01E1-1BAB-D777889BFEC4">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>AB8E889B-DC82-8635-7C32-398AD9E23A09</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cognom1" id="3BAEB5B6-2F8A-E35B-2BFF-49C65894F7B8">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>E55C6645-3EAB-66B5-B55B-AC6FFA6F105D</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cognom2" id="E723391C-6AF7-B4D0-706E-1768B4BE0670">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>C25903D1-6583-2C98-4BC1-B0804B922C4D</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_samarreta" id="D12BA5E7-FF6D-8328-F39C-1F89665BA6F0">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>6F4DB035-DCA8-C2A7-E8BC-4EFE732CD213</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codi" id="AB116443-87EB-67B3-E59C-3C750B176BA1">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>418BCE3F-BBCE-6D3D-E0D9-225006CFDE39</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROL_id" id="234DEBB1-514C-B069-6D2A-617970393B2D">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>F2BC2CF6-1570-CBC2-0C64-59D8C81E0F68</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5F7CC79-47A8-A7E4-D29F-F16C1F7A63EE" referredColumn="9EB3490F-4BD4-B5D0-1743-B00B06435AC4"/>
+</associations>
+</Column>
+<Column name="dataNaixement" id="291EB07D-B5EC-16CB-F0E6-8ED3D4B94F1D">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>57B9007D-56A8-5635-AE24-96AC128095DC</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalitat" id="5215804A-0591-1B9A-7D7C-667066225957">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>B06EF2B3-448D-FC6E-4F82-D1B88689FE11</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIP_nom" id="8ECFF41E-DAF7-70A8-D3E2-032B1E0263F1">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>FEF5D24F-BA21-7049-5488-430E792F1DD7</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9B41B6D-5E5C-4FA2-78A6-4A9891DC6887" referredColumn="EB5ADA6C-5E7B-B2DB-6419-E194921F80B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="193B92AE-C857-FE35-1C75-E3EA7A692470" name="JUGADOR_PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>4321FD08-399A-63F6-9086-DF14B953F6FA</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="994C3E2A-64C9-EC19-2DE6-70AE41441DE8"/>
+<colUsage columnID="234DEBB1-514C-B069-6D2A-617970393B2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC7A6A8F-6B8D-5F05-357F-D31414330CF9" name="JUGADOR_ROL_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>5DAD12B3-243A-1995-2CBD-D84014ABE6F8</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="234DEBB1-514C-B069-6D2A-617970393B2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4BB3C4F-D350-134C-0169-A9242EEF4D3C" name="JUGADOR_EQUIP_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>315331D8-22E9-BC94-2696-30BA13752601</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ECFF41E-DAF7-70A8-D3E2-032B1E0263F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

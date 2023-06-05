@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E6A38F1-FDFF-C324-3803-4F1EBE6CE3E0" name="EQUIP">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:22:27 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nom" id="5E8D001A-5D03-C180-FAED-B53F77F67326">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:22:40 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciutat" id="A76C1551-D3F4-6DCC-1F5D-A29A9DC74762">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:22:48 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadi" id="3ABBBE2A-EF93-935E-74C1-C010DDC674E2">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:22:56 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASSIFICACIO posicio" id="2A878D8D-884B-1615-8924-F8AC6A9EBF00">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:34:05 UTC</createdTime>
+<generatorID>2CDBCB91-8914-2331-EE2E-3390B8A14E07</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<referedAttribute>3E37880D-A0D0-B100-19EE-1C199D536849</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARTIT codi" id="47F1E2AF-9273-392E-040E-3A51CD2501DA">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:39:01 UTC</createdTime>
+<generatorID>355FFBA9-7601-A851-FABA-D3D4776D2F1F</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<referedAttribute>E141ECB6-4118-EAFE-BA7F-4FEFB1EE3D0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4DF7E2C-B82C-CCB2-BE4D-638BA4579B9F" name="EQUIP PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:22:39 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E8D001A-5D03-C180-FAED-B53F77F67326</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ExamensAnysAnteriors/src"/>
+	<classpathentry kind="src" path="Pràctica1EgeaEloi&amp;&amp;RodríguezMiquel/src"/>
+	<classpathentry kind="src" path="Practica1MiquelRodriguezEloiEGea/Pràctica1MiquelRodriguez&amp;&amp;EloiEGea/src"/>
+	<classpathentry kind="src" path="Pràctica2MiquelRodríguez&amp;&amp;EloiEgea/src"/>
+	<classpathentry kind="src" path="Pràctica4MiquelRodríguez&amp;&amp;EloiEgea/src"/>
+	<classpathentry kind="src" path="Workspace Eclipse/Exercicis_intro_POO/src"/>
+	<classpathentry kind="src" path="Workspace Eclipse/Exercicis_POO_Herencia/src"/>
+	<classpathentry kind="src" path="Workspace Eclipse/ExercicisExemples/src"/>
+	<classpathentry kind="src" path="Workspace Eclipse/Practica 2/src"/>
+	<classpathentry kind="src" path="Workspace Eclipse/Practica1RodriguezMiquel_RuanoDaniel/src"/>
+	<classpathentry kind="src" path="Workspace Eclipse/Pràctica2EgeaEloi&amp;&amp;RodríguezMiquel/src"/>
+	<classpathentry kind="src" path="Workspace Eclipse/Practica3EgeaEloi&amp;&amp;RodriguezMiquel/src"/>
+	<classpathentry kind="src" path="Workspace Eclipse/Practica4EgeaEloi&amp;&amp;RodriguezMiquel/src"/>
+	<classpathentry kind="lib" path="Keyboard.jar"/>
+	<classpathentry kind="lib" path="Practica1MiquelRodriguezEloiEGea/Pràctica1MiquelRodriguez&amp;&amp;EloiEGea/lib/Keyboard.jar"/>
+	<classpathentry kind="lib" path="Pràctica4MiquelRodríguez&amp;&amp;EloiEgea/lib/Keyboard.jar"/>
+	<classpathentry kind="lib" path="Workspace Eclipse/Exercicis_intro_POO/lib/Keyboard.jar"/>
+	<classpathentry kind="lib" path="Workspace Eclipse/Keyboard.jar"/>
+	<classpathentry kind="lib" path="Workspace Eclipse/Practica 2/lib/Keyboard.jar"/>
+	<classpathentry kind="lib" path="Workspace Eclipse/Pràctica2EgeaEloi&amp;&amp;RodríguezMiquel/lib/Keyboard.jar"/>
+	<classpathentry kind="lib" path="Workspace Eclipse/Practica4EgeaEloi&amp;&amp;RodriguezMiquel/lib/Keyboard.jar"/>
+	<classpathentry kind="output" path="ExamensAnysAnteriors/bin"/>
+</classpath>

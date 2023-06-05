@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #rectangle{
+            width:100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body onkeydown="programa(event)">
+    <div id="rectangle" style="top: 100px; left:150px"> </div>
+
+    <script>
+        function programa(e){
+            const LEFT=37, UP=38, RIGHT=39, DOWN=40;
+            var r=document.getElementById("rectangle");
+            var t=parseInt(r.style.top);
+            var l=parseInt(r.style.left);
+            /*
+            if(e.keyCode == DOWN){
+                r.style.top = (t+5)+"px";
+            } else if(e.keyCode == UP) {
+                r.style.top = (t-5)+"px";
+            } else if(e.keyCode == LEFT) {
+                r.style.left = (l-5)+"px";
+            } else if(e.keyCode == RIGHT) {
+                r.style.left = (l+5)+"px";
+            }
+            */
+            switch(e.keyCode){
+                case DOWN: r.style.top = (t+15)+"px"; break;
+                case UP: r.style.top = (t-15)+"px"; break;
+                case LEFT: r.style.left = (l-15)+"px"; break;
+                case RIGHT: r.style.left = (l+15)+"px"; break;
+            }
+
+        }
+    </script>
+</body>
+</html>

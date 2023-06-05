@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE246D59-9459-7A0A-5682-A8129DB9C319" name="TEMPORADA">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:26:44 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="any" id="321DCC8D-8393-B80F-B527-240ECB48BD66">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:26:52 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1800</beginValue>
+<endValue>2040</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="11712B9E-1471-5A27-E307-5ECAFC2DD9BC" name="TEMPORADA PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:26:58 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>321DCC8D-8393-B80F-B527-240ECB48BD66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

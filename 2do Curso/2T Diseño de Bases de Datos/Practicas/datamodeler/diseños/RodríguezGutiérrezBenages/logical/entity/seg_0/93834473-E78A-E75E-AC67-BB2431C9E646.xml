@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93834473-E78A-E75E-AC67-BB2431C9E646" name="ARBITRE">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:50:16 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>04738B2A-CA3A-E51E-1067-CA3751791528</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="esPrincipal?" id="9AD00AFD-43F1-B612-4940-C433BDB59DF9">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:50:21 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

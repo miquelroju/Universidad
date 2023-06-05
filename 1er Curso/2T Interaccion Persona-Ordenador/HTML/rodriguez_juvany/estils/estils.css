@@ -1,0 +1,59 @@
+table, th, td {
+    width: 450px;
+    height:20px;
+
+    border: 3px solid transparent;
+    text-align: left;
+}
+
+.titol {
+    text-align: center;
+    background-color: grey;
+    color: black;
+
+}
+
+.champions {
+    text-align: left;
+    background-color: rgb(255, 251, 202);
+    color: rgb(172, 99, 32);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.europa_league {
+    text-align: left;
+    background-color: rgb(179, 227, 255);
+    color: rgb(3, 64, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.normal_1 {
+    text-align: left;
+    background-color: rgb(108, 238, 158);
+    color: rgb(0, 150, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.normal_2 {
+    text-align: left;
+    background-color: rgb(81, 247, 103);
+    color: rgb(0, 150, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.descens {
+    text-align: left;
+    background-color: rgb(250, 236, 78);
+    color: rgb(231, 66, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+* {
+    margin:0;
+    padding:0;
+}

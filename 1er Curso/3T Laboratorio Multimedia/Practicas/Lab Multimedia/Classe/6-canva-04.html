@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    #myCanvas{
+        position:relative;
+        background: #eee;
+    }</style>
+
+</head>
+<body style="background-color:#aaa;text-align:center;">
+
+<canvas id="myCanvas" width="300" height="300"
+        style="border:1px solid #000;"></canvas>
+
+<script>
+    var myCanvas = document.getElementById("myCanvas");
+    var ctx = myCanvas.getContext("2d");
+    /*ctx.moveTo(10,290);
+    ctx.lineTo(290,10);
+    ctx.strokeStyle = "#000";
+    ctx.stroke();*/
+
+    /*ctx.beginPath();
+    ctx.strokeStyle = "#f00";
+    ctx.fillStyle = "#f00";
+    ctx.moveTo(10, 10);
+    ctx.lineTo(50, 50);
+    ctx.lineTo(90, 10);
+   // ctx.stroke();
+    ctx.fill();*/
+
+    ctx.strokeStyle = "#f00";
+    ctx.fillStyle = "#00f";
+    ctx.beginPath();
+    ctx.arc(50, 50, 40, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(200, 200, 160, 0, 2 * Math.PI);
+    ctx.fill();
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3B4EF18-C965-FB13-B093-ACAA2FC494B5" name="JUDICI">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:34:53 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PARTIT_codi" id="319E4662-BCED-1C28-E05A-97C7E161924A">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:34:53 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABC95B4D-F5FC-0ED4-80B0-D432FC5F0CB5" referredColumn="40826ECE-20A7-086D-ACED-F7AF2CFCAD43"/>
+</associations>
+</Column>
+<Column name="COL·LEGIAT_id_colegiat" id="00DFDC01-CCFE-2FE3-A78B-18876BE3823E">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:34:53 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8147B8B1-8283-C09C-7269-69DB2B15C296" referredColumn="410675EF-E196-FADB-DA13-742B3FA9A3C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="356FC8EA-9A25-3FC6-6A49-DD769EAF7709" name="JUDICI_PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:34:53 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="319E4662-BCED-1C28-E05A-97C7E161924A"/>
+<colUsage columnID="00DFDC01-CCFE-2FE3-A78B-18876BE3823E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCA2FC99-466A-5DB7-051E-BAA828D6E446" name="JUDICI_PARTIT_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:34:53 UTC</createdTime>
+<generatorID>071AC583-7DE3-F704-1532-4E2AA2690BE1</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="319E4662-BCED-1C28-E05A-97C7E161924A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A644321C-0E1C-6CD7-C563-0B884B2A7539" name="JUDICI_COL·LEGIAT_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:34:53 UTC</createdTime>
+<generatorID>071AC583-7DE3-F704-1532-4E2AA2690BE1</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00DFDC01-CCFE-2FE3-A78B-18876BE3823E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

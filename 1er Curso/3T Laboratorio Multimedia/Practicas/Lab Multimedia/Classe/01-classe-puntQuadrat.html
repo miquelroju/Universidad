@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align:center;">
+    <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000;"></canvas>
+    
+</body>
+
+<script>
+
+    class PuntQuadrat{
+        constructor(x,y){
+            this.x = x;
+            this.y = y;
+        }
+
+        set gruix(gr){
+            this.gr = gr;
+        }
+        
+        dibuixa(elCtx){
+            elCtx.fillRect(this.x, this.y, this.gr, this.gr)
+        }
+    }
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+   
+    var objPunt = new PuntQuadrat(100,100);  
+    objPunt. gruix = 10;
+    objPunt.dibuixa(ctx);
+   
+    var objPunt2 = new PuntQuadrat(200,150);  
+    objPunt2. gruix = 20;
+    objPunt2.dibuixa(ctx);
+
+
+</script>
+</html>

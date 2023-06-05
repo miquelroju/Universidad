@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400" style="border:1px solid black">
+
+    </canvas>
+</body>
+
+<script>
+
+    class Punt {
+        constructor(x,y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+
+    class Figura {
+        constructor (posicio) {
+            this.punt = posicio;
+        }
+    }
+
+    class Rectangle extends Figura {
+        constructor (posicio, amplada, alcada) {
+            super(posicio);
+            this.amplada = amplada;
+            this.alcada = alcada;
+        }
+
+        set col (color) {
+            this.colorRectangle = color;
+        }
+
+        get area () {
+            return this.amplada * this.alcada;
+        }
+
+        dibuixa (ctx) {
+            ctx.beginPath();
+            ctx.fillStyle = this.colorRectangle;
+            ctx.fillRect(this.punt.x, this.punt.y, this.amplada, this.alcada);
+        }
+    }
+
+    let myCanvas = document.getElementById("myCanvas");
+    let ctx = myCanvas.getContext("2d");
+
+    let rect = new Rectangle (new Punt(10,10), 100, 120);
+    rect.col()="#0f0"
+    rect.dibuixa(ctx);
+
+    let rect2 = new Rectangle (new Punt(50,50), 50, 60);
+    rect.col() = "#00f";
+    rect2.dibuixa(ctx);
+
+    
+
+</script>
+
+</html>

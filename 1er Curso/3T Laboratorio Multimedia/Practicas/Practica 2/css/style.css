@@ -1,0 +1,197 @@
+body {
+    text-align: center;
+    background: #9e9e9e url(../images/fons.webp);
+    color: #4A4A4A;
+}
+
+#tauler {
+    border-radius: 10px;
+    border: 1px solid #666;
+    position: relative;
+    background: #232 url(../images/table.jpg);
+    margin: 0 auto;
+    box-shadow: 0 -1px 0 #999, 0 1px 0 #999, inset 0;
+}
+
+.carta, .area-carta {
+    width: 80px;	height: 120px;   /* deck */
+    /* width: 111px; height: 111px;  /* pokemon */
+    /* width: 79px;	height: 123px;   /* poker1 */
+    
+    position: absolute;
+    -webkit-perspective: 300px; /* Chrome, Safari, Opera  */
+    perspective: 300px;/*transition: all .3s; */
+}
+
+.carta:hover .cara{
+    box-shadow: 0 0 10px #aaa;
+}
+
+.cara {
+    border-radius: 10px;
+    width: 100%;	height: 100%;
+    position: absolute;  /* per poder moure la carta */
+
+    transition-property: transform, shadow;
+    transition-duration: .5s;
+
+    backface-visibility: hidden;
+}
+
+.darrera {
+    background: #999 url(../images/deck.png) 0px -480px; /*cartes DECK*/
+    /*background: #999 url(../images/poker1.png) 0px -496px; /*cartes POKER1*/
+}
+
+.davant {
+    background: #efefef url(../images/deck.png);/*cartes DECK*/
+    /*background: #999 url(../images/poker1.png); /*cartes POKER1*/
+    transform: rotate3d(0,1,0,-180deg);
+}
+
+
+.carta-girada .darrera {
+    transform: rotate3d(0,1,0,180deg);
+}
+
+.carta-girada .davant {
+    transform: rotate3d(0,1,0,0deg);
+}
+
+/* deck */
+/* fila 120 - columna 80) */
+.carta1 {background-position: 0 0;}
+.carta2 {background-position: -80px 0;} 
+.carta3 {background-position: -160px 0;}
+.carta4 {background-position: -240px 0;}
+.carta5 {background-position: -320px 0;}
+.carta6 {background-position: -400px 0;}
+.carta7 {background-position: -480px 0;}
+.carta8 {background-position: -560px 0;}
+.carta9 {background-position: -640px 0;}
+.carta10 {background-position: -720px 0;}
+.carta11 {background-position: -800px 0;}
+.carta12 {background-position: -880px 0;}
+.carta13 {background-position: -960px 0;}
+.carta14 {background-position: 0 -120;}
+.carta15 {background-position: -80px -120px;}
+.carta16 {background-position: -160px -120px;}
+.carta17 {background-position: -240px -120px;}
+.carta18 {background-position: -320px -120px;}
+.carta19 {background-position: -400px -120px;}
+.carta20 {background-position: -480px -120px;}
+.carta21 {background-position: -560px -120px;}
+.carta22 {background-position: -640px -120px;}
+.carta23 {background-position: -720px -120px;}
+.carta24 {background-position: -800px -120px;}
+.carta25 {background-position: -880px -120px;}
+.carta26 {background-position: -960px -120px;}
+.carta27 {background-position: 0 -240px;}
+.carta28 {background-position: -80px -240px;}
+.carta29 {background-position: -160px -240px;}
+.carta30 {background-position: -240px -240px;}
+.carta31 {background-position: -320px -240px;}
+.carta32 {background-position: -400px -240px;}
+.carta33 {background-position: -480px -240px;}
+.carta34 {background-position: -560px -240px;}
+.carta35 {background-position: -640px -240px;}
+.carta36 {background-position: -720px -240px;}
+.carta37 {background-position: -800px -240px;}
+.carta38 {background-position: -880px -240px;}
+.carta39 {background-position: -960px -240px;}
+.carta40 {background-position: 0 -320px;}
+.carta41 {background-position: -80px -320px;}
+.carta42 {background-position: -160px -320px;}
+.carta43 {background-position: -240px -320px;}
+.carta44 {background-position: -320px -320px;}
+.carta45 {background-position: -400px -320px;}
+.carta46 {background-position: -480px -320px;}
+.carta47 {background-position: -560px -320px;}
+.carta48 {background-position: -640px -320px;}
+.carta49 {background-position: -720px -320px;}
+.carta50 {background-position: -800px -320px;}
+.carta51 {background-position: -880px -320px;}
+.carta52 {background-position: -960px -320px;}
+
+
+/* pokemon */
+/* fila 111 - columna 111 */
+.cartaPok1{background-position:    0       0; }
+.cartaPok2{background-position: -111px     0; }
+.cartaPok3{background-position: -222px     0; }
+.cartaPok4{background-position: -333px     0; }
+.cartaPok5{background-position: -444px     0; }
+.cartaPok6{background-position: -555px     0; }
+.cartaPok7{background-position: -666px     0; }
+.cartaPok8{background-position:   -0    -111px; }
+.cartaPok9{background-position:   -111px    -111px; }
+.cartaPok10{background-position:   -222px    -111px; }
+.cartaPok11{background-position:   -333px    -111px; }
+.cartaPok12{background-position:   -444px    -111px; }
+.cartaPok13{background-position:   -555px    -111px; }
+.cartaPok14{background-position:   -666px    -111px; }
+.cartaPok15{background-position:   -777px    -111px; }
+.cartaPok16{background-position:   -0    -222px; }
+.cartaPok17{background-position:   -111px    -222px; }
+.cartaPok18{background-position:   -222px    -222px; }
+.cartaPok19{background-position:   -333px    -222px; }
+.cartaPok20{background-position:   -444px    -222px; }
+.cartaPok21{background-position:   -555px    -222px; }
+.cartaPok22{background-position:   -666px    -222px; }
+.cartaPok23{background-position:   -777px    -222px; }
+
+/* poker1 */
+/* fila 124 - columna 79 */
+
+.cartaPoker1{background-position:    0     0  ; }
+.cartaPoker2{background-position:  -79px   0  ; }
+.cartaPoker3{background-position: -158px   0  ; }
+.cartaPoker4{background-position: -237px   0  ; }
+.cartaPoker5{background-position: -316px   0  ; }
+.cartaPoker6{background-position: -395px   0  ; }
+.cartaPoker7{background-position: -474px   0  ; }
+.cartaPoker8{background-position: -553px   0  ; }
+.cartaPoker9{background-position: -632px   0  ; }
+.cartaPoker10{background-position: -711px   0  ; }
+.cartaPoker11{background-position: -790px   0  ; }
+.cartaPoker12{background-position: -869px   0  ; }
+.cartaPoker13{background-position: -948px   0  ; }
+.cartaPoker14{background-position:    0     -124px  ; }
+.cartaPoker15{background-position:  -79px   -124px  ; }
+.cartaPoker16{background-position: -158px   -124px  ; }
+.cartaPoker17{background-position: -237px   -124px  ; }
+.cartaPoker18{background-position: -316px   -124px  ; }
+.cartaPoker19{background-position: -395px   -124px  ; }
+.cartaPoker20{background-position: -474px   -124px  ; }
+.cartaPoker21{background-position: -553px   -124px  ; }
+.cartaPoker22{background-position: -632px   -124px  ; }
+.cartaPoker23{background-position: -711px   -124px  ; }
+.cartaPoker24{background-position: -790px   -124px  ; }
+.cartaPoker25{background-position: -869px   -124px  ; }
+.cartaPoker26{background-position: -948px   -124px  ; }
+.cartaPoker27{background-position:    0     -248px  ; }
+.cartaPoker28{background-position:  -79px   -248px  ; }
+.cartaPoker29{background-position: -158px   -248px  ; }
+.cartaPoker30{background-position: -237px   -248px  ; }
+.cartaPoker31{background-position: -316px   -248px  ; }
+.cartaPoker32{background-position: -395px   -248px  ; }
+.cartaPoker33{background-position: -474px   -248px  ; }
+.cartaPoker34{background-position: -553px   -248px  ; }
+.cartaPoker35{background-position: -632px   -248px  ; }
+.cartaPoker36{background-position: -711px   -248px  ; }
+.cartaPoker37{background-position: -790px   -248px  ; }
+.cartaPoker38{background-position: -869px   -248px  ; }
+.cartaPoker39{background-position: -948px   -248px  ; }
+.cartaPoker40{background-position:    0     -372px  ; }
+.cartaPoker41{background-position:  -79px   -372px  ; }
+.cartaPoker42{background-position: -158px   -372px  ; }
+.cartaPoker43{background-position: -237px   -372px  ; }
+.cartaPoker44{background-position: -316px   -372px  ; }
+.cartaPoker45{background-position: -395px   -372px  ; }
+.cartaPoker46{background-position: -474px   -372px  ; }
+.cartaPoker47{background-position: -553px   -372px  ; }
+.cartaPoker48{background-position: -632px   -372px  ; }
+.cartaPoker49{background-position: -711px   -372px  ; }
+.cartaPoker50{background-position: -790px   -372px  ; }
+.cartaPoker51{background-position: -869px   -372px  ; }
+.cartaPoker52{background-position: -948px   -372px  ; }

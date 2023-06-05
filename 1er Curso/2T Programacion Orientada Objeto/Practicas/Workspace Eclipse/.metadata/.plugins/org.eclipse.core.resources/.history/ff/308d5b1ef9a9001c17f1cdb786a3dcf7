@@ -1,0 +1,262 @@
+package Sessio1;
+
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.*;
+import java.util.*;
+
+public class JocVida extends JFrame implements ActionListener {
+	
+	private JLabel fila, columna, generacio, vius, text;// text
+		private JTextField fil, col, gen, life; // casella per introduir valor
+		private casella[][] Panell; // matriu panells
+		private JButton dades, fgen; // buttons per fer generacio i comencar
+		private int nfila, ncol, ngen, nvius, cont = 1; // valors
+		private JPanel ec, centre;// dividir interfaz
+		private boolean aux[][];
+
+		public JocVida(String nom) {
+			super(nom);
+			initComponents();
+		}
+
+		public void initComponents() {
+
+			// esquerra = new JPanel();
+			ec = new JPanel();
+			this.setLayout(new BorderLayout());
+			ec.setLayout(new GridLayout(13, 1)); // fer una taula amb una columna i 13 files per posar la info
+
+			centre = new JPanel();
+			this.setLayout(new BorderLayout());
+			
+			// nuemero de files
+			fila = new JLabel("Número de files");
+			fil = new JTextField();
+
+			// nuemro de columnes
+			columna = new JLabel("Número de columnes");
+			col = new JTextField();
+
+			// numero de generacions
+			generacio = new JLabel("Número de generacions");
+			gen = new JTextField();
+
+			// numero de vius
+			vius = new JLabel("Número d'essers vius inicials");
+			life = new JTextField();
+
+			// butons dels final
+			text = new JLabel();
+
+			// if (nfila, ncol, ngen, vius==true) llavors visible true i enable true
+			dades = new JButton("Entra dades");
+			fgen = new JButton("Generació");
+			fgen.setEnabled(false);
+
+			// esquerra.setLayout(new BoxLayout(esquerra, BoxLayout.Y_AXIS));
+
+			ec.add(fila);
+			ec.add(fil);
+			ec.add(columna);
+			ec.add(col);
+			ec.add(generacio);
+			ec.add(gen);
+			ec.add(vius);
+			ec.add(life);
+			ec.add(text);
+			ec.add(dades);
+			ec.add(fgen);
+			
+			//centre.add(Panell);
+
+			dades.addActionListener(this);
+			fgen.addActionListener(this);
+
+			this.getContentPane().add(ec, BorderLayout.WEST);
+			this.getContentPane().add(centre, BorderLayout.CENTER);
+
+			// ara el panell
+
+		}
+
+		public void actionPerformed(ActionEvent e) {
+
+			if (e.getSource() == this.dades) { // si acciona comprovar si les dades son correctes
+				this.Panell = new casella[nfila][ncol];
+				this.aux = new boolean[nfila][ncol];
+				
+				nfila = Integer.parseInt(fil.getText());
+				ncol = Integer.parseInt(col.getText());
+				ngen = Integer.parseInt(gen.getText());
+				nvius = Integer.parseInt(life.getText());
+				if (nfila > 0 && ncol > 0) {
+					if (ngen <= 10 && ngen > 0) {
+						if (nvius <= (nfila * ncol) && nvius > 0) {
+							text.setText("Dades Correctes");
+							fgen.setEnabled(true); // podem fer genreacio
+							fgen.setText("Generació: " + this.cont);
+							dades.setEnabled(false);
+							fil.setEnabled(false);
+							col.setEnabled(false);
+							gen.setEnabled(false);
+							life.setEnabled(false);
+							
+							posarVida(nvius);
+							imprimirTaulell();
+							cont++;
+						}
+					}
+
+				} else {
+					text.setText("Dades Incorrectes");
+				}
+			}
+			if (e.getSource() == this.fgen) {
+				if (this.cont == this.ngen || ferGeneracio() == true) {
+					gen.setEnabled(false);
+				}
+				
+				this.Panell = new casella[nfila][ncol];
+				this.aux = new boolean[nfila][ncol];
+
+				if (this.cont == 1) {
+					posarVida(nvius);
+					imprimirTaulell();
+					cont++;
+				} else {
+					ferGeneracio();
+					imprimirTaulell();
+					cont++;
+				}
+
+			}
+
+			// premer boto fer generació
+		}
+
+		public boolean ferGeneracio() {
+			boolean diferent = false;
+			copiar(this.aux);
+
+			for (int i = 0; i < this.aux.length; i++) {
+				for (int j = 0; j < this.aux[i].length; j++) {
+					if (quantesVeines(i, j) == 3) {
+						this.aux[i][j] = true;
+					} else if (quantesVeines(i, j) >= 4 || quantesVeines(i, j) <= 1) {
+						this.aux[i][j] = false;
+					}
+				}
+			}
+
+			canviar(this.Panell,this.aux);
+			for (int i = 0; i < this.nfila; i++) {
+				for (int j = 0; j < this.ncol; j++) {
+					if (quantesVeines(i, j) == 0) { // comprovar si es morta
+						return false;
+					}
+				}
+			}
+
+			for (int i = 0; i < this.nfila; i++) {
+				for (int j = 0; j < this.ncol; j++) {
+					while (diferent != true) {
+						if ((this.Panell[i][j].getEstat() == true && this.aux[i][j] == true) || (this.Panell[i][j].getEstat() == false && this.aux[i][j] == false)) {
+							diferent = false;
+						} else {
+							diferent = true;
+
+						}
+					}
+				}
+			}
+			
+			
+
+			return diferent;
+
+		}
+
+		public int quantesVeines(int fil, int col) {
+			int veins = 0;
+			for (int i = fil - 1; i <= fil + 1; i++) {
+				for (int j = col - 1; j <= col + 1; j++) {
+					if (i >= 0 && i < this.nfila && j >= 0 && j < this.ncol) {
+
+						if (Panell[i][j].getEstat()) {
+
+							if (!(fil == i && col == j))
+								veins++;
+						}
+					}
+				}
+			}
+			return veins;
+
+		}
+
+		public void imprimirTaulell() {
+			for (int i = 0; i < this.nfila; i++) {
+				for (int j = 0; j < this.ncol; j++) {
+					if (this.Panell[i][j].getEstat()) {
+						this.Panell[i][j].setViu();
+					} else {
+						this.Panell[i][j].setMort();
+					}
+				}
+			}
+		}
+
+		public void posarVida(int N) { // n= nombre de vius de la 1r gen
+			Random random = new Random();
+			for (int i = 0; i < N; i++) {
+
+				int fila = random.nextInt(this.nfila);
+				int col = random.nextInt(this.ncol);
+				while (this.Panell[nfila][ncol].getEstat()) {
+
+					fila = random.nextInt(this.nfila);
+					col = random.nextInt(this.ncol);
+				}
+				this.Panell[fila][col].setViu();
+			}
+		}
+
+		public void canviar(casella Panell[][], boolean aux[][]) { // per imprimir panell que es el que es mostra
+			for (int i = 0; i < this.Panell.length; i++) {
+				for (int j = 0; j < this.Panell[i].length; j++) {
+					if (aux[i][j] == true) {
+						Panell[i][j].setViu();
+					} else {
+						Panell[i][j].setMort();
+					}
+				}
+			}
+
+		}
+
+		public void copiar(boolean aux[][]) { // copiar panell i fer tractament amb aux
+			for (int i = 0; i < this.nfila; i++) {
+				for (int j = 0; j < this.ncol; j++) {
+					if (this.Panell[i][j].getEstat()) {
+						aux[i][j] = true;
+					} else {
+						aux[i][j] = false;
+					}
+				}
+			}
+		}
+
+		public static void main(String[] args) {
+			EventQueue.invokeLater(new Runnable() {
+				public void run() {
+					JFrame jf;
+					jf = new JocVida("Joc Vida");
+					jf.setBounds(300, 300, 500, 500);
+					jf.setVisible(true);
+				}
+			}
+
+			);
+		}
+}

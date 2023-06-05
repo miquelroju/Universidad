@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <body style="text-align:center;">
+        <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000;"></canvas>
+        
+    </body>
+    
+<script>
+
+    class Punt{
+        constructor(x,y){
+            this.x = x;
+            this.y= y;
+        }
+        static distaciaDosPunt(a,b){
+            return Math.sqrt(Math.pow(a.x-b.x,2) + Math.pow(a.y-b.y,2));
+        }
+    }
+
+    class Figura{
+        constructor(posicio){
+            this.punt = posicio;
+        }
+    }
+
+    class Rectangle extends Figura{
+        constructor(posicio, amplada, alcada){
+            super(posicio);
+            this.amplada = amplada;
+            this.alcada = alcada;
+        }
+
+        set color(col){
+            this.colorRectangle = col;
+        }
+
+        get area(){
+            return this.amplada * this.alcada;
+        }
+
+        dibuixa(ctx){
+            ctx.beginPath();
+            ctx.fillStyle = this.colorRectangle;
+            ctx.fillRect(this.punt.x, this.punt.y, this.amplada, this.alcada);
+        }
+
+        puntInteriorRectangle(punt){
+            return (punt.x >= this.punt.x &&
+                    punt.x <= this.punt.x + this.amplada) &&
+                    (punt.y >=this.punt.y && 
+                        punt.y <=this.punt.y + this.punt.y+this.alcada);
+        }
+
+
+    }
+
+    let rectangle = new Rectangle(new Punt(10,10),100, 100);
+    rectangle.color = "#0f0";
+    let myCanvas = document.getElementById("myCanvas");
+    let ctx = myCanvas.getContext("2d");
+    rectangle.dibuixa(ctx)
+
+
+
+    let rectangle2 = new Rectangle(new Punt(120,30), 100, 100);
+    rectangle2.color = "#00f";
+    if (rectangle.puntInteriorRectangle(rectangle2.punt)){
+        rectangle2.color="#f00";
+    }
+    rectangle2.dibuixa(ctx);
+
+
+   
+
+
+
+</script>
+</html>

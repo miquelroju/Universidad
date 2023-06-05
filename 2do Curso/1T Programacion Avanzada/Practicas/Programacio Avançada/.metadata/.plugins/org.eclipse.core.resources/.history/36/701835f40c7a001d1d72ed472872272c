@@ -1,0 +1,87 @@
+package Examen1;
+
+public class AcbEnll implements Acb<ContenidorBrossa> {
+	private class NodeA {
+		ContenidorBrossa inf;
+		NodeA esq, dret;
+
+		public NodeA(ContenidorBrossa m, NodeA e, NodeA d) {
+			inf = m;
+			esq = e;
+			dret = d;
+		}
+
+		public int quants() {
+			int quants = 1;
+			if (esq != null) {
+				quants++;
+				return esq.quants();
+			}
+			if (dret != null) {
+				quants++;
+				return dret.quants();
+			}
+			return quants;
+		}
+	} // fi classe
+
+	private NodeA arrel;
+
+	public AcbEnll() {
+		arrel = null;
+	}
+
+	/*
+	 * implementació de tots els mètodes de la interfície
+	 */
+	public int quants(ContenidorBrossa c) {
+		if (arrel == null)
+			return 0;
+		return arrel.quants();
+	}
+
+	public ContenidorBrossa max() {
+		int max = 0;
+		ContenidorBrossa con = null;
+		while (arrel.esq != null) {
+			int q = arrel.quants();
+			if (q > max) {
+				max = q;
+				con = arrel.inf;
+			}
+			arrel.esq = arrel.esq.esq;
+		}
+		while (arrel.dret != null) {
+			int q = arrel.quants();
+			if (q > max) {
+				max = q;
+				con = arrel.inf;
+			}
+			arrel.dret = arrel.dret.dret;
+		}
+		return con;
+	}
+
+	public String toString() {
+		String s = "";
+		if (arrel == null)
+			return s;
+		return arrel.inf.toString();
+	}
+
+	public String color(int color) {
+		switch (color) {
+		case 0:
+			return "groc";
+		case 1:
+			return "marro";
+		case 2:
+			return "gris";
+		case 3:
+			return "verd";
+		case 4:
+			return "blau";
+		}
+		return "";
+	}
+} // fi classe

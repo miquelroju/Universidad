@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="448AD9BB-050C-2664-492C-B14D7700ED82" name="TEMPORADA">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>BE246D59-9459-7A0A-5682-A8129DB9C319</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="any" id="9A0CBADC-1AF5-476A-A7F7-A9A3D40B4B8C">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>321DCC8D-8393-B80F-B527-240ECB48BD66</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1800</beginValue>
+<endValue>2040</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0527A7D0-78D7-4974-648E-45DCEEF8C447" name="TEMPORADA_PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>11712B9E-1471-5A27-E307-5ECAFC2DD9BC</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A0CBADC-1AF5-476A-A7F7-A9A3D40B4B8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

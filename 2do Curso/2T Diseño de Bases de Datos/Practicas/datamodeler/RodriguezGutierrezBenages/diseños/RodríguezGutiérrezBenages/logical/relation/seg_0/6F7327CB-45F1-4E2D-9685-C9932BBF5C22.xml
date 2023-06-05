@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARTIT TEMPORADA FK" directorySegmentName="seg_0" id="6F7327CB-45F1-4E2D-9685-C9932BBF5C22">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:35:39 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>11712B9E-1471-5A27-E307-5ECAFC2DD9BC</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>es juga</nameOnSource>
+<nameOnTarget>és jugat a</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE246D59-9459-7A0A-5682-A8129DB9C319</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BFF8304E-BBC8-9A9A-CEDC-CB4977E26744</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

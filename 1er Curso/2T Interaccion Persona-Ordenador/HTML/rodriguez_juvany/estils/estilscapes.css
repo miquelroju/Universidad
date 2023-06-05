@@ -1,0 +1,149 @@
+table, th, td {
+    width: 450px;
+    height:20px;
+
+    border: 3px solid transparent;
+    text-align: left;
+}
+
+.taula1 {
+    width: 450px;
+    height:20px;
+
+    border: 3px solid transparent;
+    text-align: left;
+}
+
+.titol {
+    text-align: center;
+    background-color: grey;
+    color: black;
+
+}
+
+.champions {
+    text-align: left;
+    background-color: rgb(255, 251, 202);
+    color: rgb(172, 99, 32);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.europa_league {
+    text-align: left;
+    background-color: rgb(179, 227, 255);
+    color: rgb(3, 64, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.normal_1 {
+    text-align: left;
+    background-color: rgb(108, 238, 158);
+    color: rgb(0, 150, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.normal_2 {
+    text-align: left;
+    background-color: rgb(81, 247, 103);
+    color: rgb(0, 150, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.descens {
+    text-align: left;
+    background-color: rgb(250, 236, 78);
+    color: rgb(231, 66, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.superior {
+    text-align: center;
+    background-color: rgb(247, 173, 76);
+    width:600px;
+    float:top-margin;
+}
+
+.lateral {
+    text-align: left;
+    background-color: rgb(255, 130, 130);
+    width:150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float:left;
+}
+
+.equips {
+    float:left;
+    margin-right:1200px;
+}
+
+.rollover {
+    display:flex;
+    width: 150px;
+    height: 150px;
+    background: url(../imatges/black_youtube.png) no-repeat;
+    background-size:150px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+.rollover:hover {
+    background: url(../imatges/youtube.png);
+    background-size: 150px;
+    width:150px;
+    height:150px;
+}
+
+.rollover2 {
+    display:flex;
+    width: 150px;
+    height: 150px;
+    background: url(../imatges/diari.png) no-repeat;
+    background-size:150px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+.rollover2:hover {
+    background: url(../imatges/futbol.jpg);
+    background-size: 150px;
+    width:150px;
+    height:150px;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.form {
+    float:left;    
+    text-align: left;
+    background-color: rgb(188, 242, 255);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width:250px;
+    margin-left:100px;
+    margin-top: 15px;
+}
+
+.button {
+    background-color: #97d1f7;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

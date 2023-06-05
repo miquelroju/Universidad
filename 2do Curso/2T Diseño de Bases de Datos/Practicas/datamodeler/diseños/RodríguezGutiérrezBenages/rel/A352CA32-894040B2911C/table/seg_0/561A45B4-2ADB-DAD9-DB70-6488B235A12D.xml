@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="561A45B4-2ADB-DAD9-DB70-6488B235A12D" name="PARTIT">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>BFF8304E-BBC8-9A9A-CEDC-CB4977E26744</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codi" id="40826ECE-20A7-086D-ACED-F7AF2CFCAD43">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>E141ECB6-4118-EAFE-BA7F-4FEFB1EE3D0C</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="9F885643-2551-E409-9C21-14E5ACEE30DE">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>A211AD5B-53C0-72CB-65D1-85963485EE0F</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equip_local" id="6E177F4B-B22D-90DB-1279-6C7F817593F1">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>0D537EBF-85FA-64EA-9E17-EADC22F06898</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equip_visitant" id="A84BE6DA-7723-FEBA-83FC-7EF1835CA4D9">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>C23165D2-6C9E-0F9C-B9B2-E51A4F60FE64</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gols_local" id="25F2741F-7A14-EA23-4AB9-7338519F6AEF">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>C624B4AE-7404-25BD-402A-39A12CB41E7A</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gols_visitant" id="E1F9D57C-CA42-AE01-2537-64CAC3751CE4">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>FD121738-2849-CA9F-75B0-AD139988B56C</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacio" id="179DCFD1-81B4-C6F4-6691-5934F10ED321">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>C3F68217-F1CE-2C5A-2D80-5E05B82F2CA9</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPORADA_any" id="C00FC7A5-8377-8887-2A18-634C298EC322">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>692513D6-5553-FDFB-F194-5D86335461F6</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDDCCBAF-8B29-38EB-9017-174CBD2AF3B4" referredColumn="9A0CBADC-1AF5-476A-A7F7-A9A3D40B4B8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C414E384-4323-4088-A1B9-6616055633BE" name="PARTIT_PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>03551B7E-0B74-F91B-BB73-0564A322CA35</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40826ECE-20A7-086D-ACED-F7AF2CFCAD43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="165B9E88-EB97-8225-CE61-4D22EC59BD75" name="PARTIT_TEMPORADA_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>6F7327CB-45F1-4E2D-9685-C9932BBF5C22</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C00FC7A5-8377-8887-2A18-634C298EC322"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

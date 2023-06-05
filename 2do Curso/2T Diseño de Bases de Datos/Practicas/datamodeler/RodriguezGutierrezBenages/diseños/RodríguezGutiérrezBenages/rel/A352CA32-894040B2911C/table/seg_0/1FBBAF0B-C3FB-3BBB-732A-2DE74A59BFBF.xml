@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FBBAF0B-C3FB-3BBB-732A-2DE74A59BFBF" name="ROL">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>4C534429-A44C-6668-047C-1A07F2226274</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9EB3490F-4BD4-B5D0-1743-B00B06435AC4">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>0C98A081-D9B6-3167-2C48-D1D124FD6F3B</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91AC2B7C-5B98-8FE2-D2B9-1393FF3DDD92</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipus" id="3E4A3CC0-06F5-D873-13FD-FB0E7870EED7">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>933949BB-72EE-2757-D14A-14224E1A97B9</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<listOfValues>
+<valueDef value="DEFENSA" description=""/>
+<valueDef value="DELANTER" description=""/>
+<valueDef value="PORTER" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2160C2AD-5829-F5F6-06F3-C3246499F233" name="ROL_PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>7695A075-937B-9EE4-4C10-E19C7780CE36</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EB3490F-4BD4-B5D0-1743-B00B06435AC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

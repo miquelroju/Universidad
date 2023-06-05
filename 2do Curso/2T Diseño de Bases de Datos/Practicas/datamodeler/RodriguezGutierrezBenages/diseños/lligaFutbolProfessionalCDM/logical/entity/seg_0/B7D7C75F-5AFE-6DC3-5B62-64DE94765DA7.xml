@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7D7C75F-5AFE-6DC3-5B62-64DE94765DA7" name="JUGADOR">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:21:02 UTC</createdTime>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7952BDFF-848C-93AB-1304-052675B6EFC4">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:21:11 UTC</createdTime>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>91AC2B7C-5B98-8FE2-D2B9-1393FF3DDD92</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="AB8E889B-DC82-8635-7C32-398AD9E23A09">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:21:19 UTC</createdTime>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cognom1" id="E55C6645-3EAB-66B5-B55B-AC6FFA6F105D">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:21:30 UTC</createdTime>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cognom2" id="C25903D1-6583-2C98-4BC1-B0804B922C4D">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:21:41 UTC</createdTime>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_samarreta" id="6F4DB035-DCA8-C2A7-E8BC-4EFE732CD213">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:21:49 UTC</createdTime>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipus" id="6491D48B-759C-EB77-8F41-71B912896A65">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:31:21 UTC</createdTime>
+<generatorID>5DAD12B3-243A-1995-2CBD-D84014ABE6F8</generatorID>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<referedAttribute>933949BB-72EE-2757-D14A-14224E1A97B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D70EC577-33A9-DF15-371C-1D4E614DC389">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:33:11 UTC</createdTime>
+<generatorID>315331D8-22E9-BC94-2696-30BA13752601</generatorID>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<referedAttribute>9C6D3D68-509F-AF98-D9F9-6DE1B7C2F864</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codi" id="418BCE3F-BBCE-6D3D-E0D9-225006CFDE39">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:35:10 UTC</createdTime>
+<generatorID>355FFBA9-7601-A851-FABA-D3D4776D2F1F</generatorID>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<referedAttribute>E141ECB6-4118-EAFE-BA7F-4FEFB1EE3D0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4321FD08-399A-63F6-9086-DF14B953F6FA" name="JUGADOR PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:22:06 UTC</createdTime>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7952BDFF-848C-93AB-1304-052675B6EFC4</attributeRef>
+<attributeRef>6491D48B-759C-EB77-8F41-71B912896A65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

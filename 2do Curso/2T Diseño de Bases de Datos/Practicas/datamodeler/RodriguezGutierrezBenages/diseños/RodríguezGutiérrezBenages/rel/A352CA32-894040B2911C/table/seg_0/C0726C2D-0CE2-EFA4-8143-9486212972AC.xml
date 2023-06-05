@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0726C2D-0CE2-EFA4-8143-9486212972AC" name="EQUIP">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>5E6A38F1-FDFF-C324-3803-4F1EBE6CE3E0</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nom" id="EB5ADA6C-5E7B-B2DB-6419-E194921F80B2">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>5E8D001A-5D03-C180-FAED-B53F77F67326</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciutat" id="FA273796-140E-9C00-5482-03EEA83A5908">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>A76C1551-D3F4-6DCC-1F5D-A29A9DC74762</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadi" id="E216700F-1724-0289-A9BD-8BA8D2C9A221">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>3ABBBE2A-EF93-935E-74C1-C010DDC674E2</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<domain>ED3711D2-C9E7-A150-1AC4-02A38575D6E8</domain>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASSIFICACIO_posicio" id="3CBCEAA7-6BC8-1033-B371-7DBF8459A0AF">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>2A878D8D-884B-1615-8924-F8AC6A9EBF00</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DDCF786-06EB-F9AE-1026-D32CFDC4D9B7" referredColumn="ED9FB1F2-5373-FA13-B5FF-5DB06F1E6C88"/>
+</associations>
+</Column>
+<Column name="PARTIT_codi" id="3BDF331A-3E86-A1A6-881A-CC3E94AE106F">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>47F1E2AF-9273-392E-040E-3A51CD2501DA</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0223AED0-12BC-5F0C-F934-4FFAEF56AA3B" referredColumn="40826ECE-20A7-086D-ACED-F7AF2CFCAD43"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35CAD59C-0694-27BB-AC0E-8966D18C5644" name="EQUIP_PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>A4DF7E2C-B82C-CCB2-BE4D-638BA4579B9F</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB5ADA6C-5E7B-B2DB-6419-E194921F80B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44142B15-8599-8B75-6C1D-6C116390ADC4" name="EQUIP_CLASSIFICACIO_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>2CDBCB91-8914-2331-EE2E-3390B8A14E07</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CBCEAA7-6BC8-1033-B371-7DBF8459A0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B12243D6-E6C4-3EA8-572B-EA056D6C5923" name="EQUIP_PARTIT_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>355FFBA9-7601-A851-FABA-D3D4776D2F1F</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BDF331A-3E86-A1A6-881A-CC3E94AE106F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

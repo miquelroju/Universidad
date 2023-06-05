@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7DDCF786-06EB-F9AE-1026-D32CFDC4D9B7" containerWithKeyObject="C0726C2D-0CE2-EFA4-8143-9486212972AC" localFKIndex="44142B15-8599-8B75-6C1D-6C116390ADC4" name="EQUIP_CLASSIFICACIO_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>2CDBCB91-8914-2331-EE2E-3390B8A14E07</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<referredTableLongName>CLASSIFICACIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2C396FD7-436C-5869-4720-00FDE3B8EE03</referredTableID>
+<keyObject>E514AE7D-ED44-9F4E-7FDA-43407FB52656</keyObject>
+<referredKeyID>E514AE7D-ED44-9F4E-7FDA-43407FB52656</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>posicio</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

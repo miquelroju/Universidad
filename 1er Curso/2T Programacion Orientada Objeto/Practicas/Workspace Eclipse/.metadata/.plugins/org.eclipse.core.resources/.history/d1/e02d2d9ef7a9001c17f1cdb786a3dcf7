@@ -1,0 +1,31 @@
+package Sessio1;
+
+import javax.swing.*;
+import java.util.*;
+import java.awt.*;
+
+public class casella extends JPanel {
+
+
+	public casella() {
+		super();
+		this.setBlack();
+	}
+
+	public void setViu() {
+		this.setBackground(Color.green);
+	}
+	
+	public void setMort() {
+		this.setBackground(Color.black);
+	}
+	
+	
+	public boolean getEstat() {
+		if (this.getBackground() == Color.green) {
+			return true;
+		} else return false;
+	}
+	
+
+}

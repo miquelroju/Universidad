@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DDDCCBAF-8B29-38EB-9017-174CBD2AF3B4" containerWithKeyObject="561A45B4-2ADB-DAD9-DB70-6488B235A12D" localFKIndex="165B9E88-EB97-8225-CE61-4D22EC59BD75" name="PARTIT_TEMPORADA_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>6F7327CB-45F1-4E2D-9685-C9932BBF5C22</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<referredTableLongName>TEMPORADA</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>448AD9BB-050C-2664-492C-B14D7700ED82</referredTableID>
+<keyObject>0527A7D0-78D7-4974-648E-45DCEEF8C447</keyObject>
+<referredKeyID>0527A7D0-78D7-4974-648E-45DCEEF8C447</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>any</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

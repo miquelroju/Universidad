@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="judici" directorySegmentName="seg_0" id="84940FE5-D253-D820-7532-4065EDA90C4F">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:52:54 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<nameOnSource>jutja</nameOnSource>
+<nameOnTarget>és jutjat per</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9A88C608-D8A8-1F1E-9B10-BD11A2E3D993</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BFF8304E-BBC8-9A9A-CEDC-CB4977E26744</targetEntity>
+<transferable>true</transferable>
+</Relation>

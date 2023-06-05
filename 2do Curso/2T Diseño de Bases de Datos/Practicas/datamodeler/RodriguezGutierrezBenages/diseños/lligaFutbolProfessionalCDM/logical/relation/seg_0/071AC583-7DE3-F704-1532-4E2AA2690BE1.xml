@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="071AC583-7DE3-F704-1532-4E2AA2690BE1">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:36:29 UTC</createdTime>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>és jutjat per</nameOnSource>
+<nameOnTarget>jutja</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BFF8304E-BBC8-9A9A-CEDC-CB4977E26744</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8B9B5701-5379-A4A4-4DDA-EDEFE6C055E7</targetEntity>
+<transferable>true</transferable>
+</Relation>

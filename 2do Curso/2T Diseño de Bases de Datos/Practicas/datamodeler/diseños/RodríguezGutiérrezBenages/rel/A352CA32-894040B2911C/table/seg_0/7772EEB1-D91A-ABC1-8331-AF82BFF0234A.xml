@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7772EEB1-D91A-ABC1-8331-AF82BFF0234A" name="COLEGIAT">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>C14BE1B4-5DE6-2AA6-8134-FAEC5FABBBE2</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<ordsAlias>colegiat</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_colegiat" id="410675EF-E196-FADB-DA13-742B3FA9A3C8">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>2C575185-1E89-FFEF-652B-3274590B7BF6</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="511AEA33-EF56-60A6-91A8-722EA9B5687F">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>5FAC5AEC-A614-66B9-B74E-54EB6528645D</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cognom1" id="478B8E97-3D44-F16D-4A13-1F8C3A6F7AEF">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>A2807FBF-C43D-B105-4945-CA1DEFC9A052</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cognom2" id="7A2499CC-3711-FB7F-E1CC-2FB97B3FB5DB">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>91712E08-B4C4-D48F-E785-31B9817733DE</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esPrincipal?" id="AA735902-FFE0-FD9D-43BC-653BD619E0E3">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:34:53 UTC</createdTime>
+<generatorID>1FD1799E-E1D1-210C-2A90-D994AF9C0DED</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="0" description="No és àrbitre principal"/>
+<valueDef value="1" description="És àrbitre principal"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_jutge" id="7C70C545-2860-19C0-25C7-BC8EE9005E26">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:34:53 UTC</createdTime>
+<generatorID>A91B7731-6979-C9B0-2017-5F2054E44953</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<listOfValues>
+<valueDef value="1" description="Primer jutge de línia"/>
+<valueDef value="2" description="Segon jutge de línia"/>
+<valueDef value="4" description="Quart jutge de línia"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esArbitre?" id="4DB677A4-42EE-5751-05AE-A7042AABE7F7">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:36:49 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esJutge?" id="E263A2BD-362D-163F-A20D-EB2CFC05D0C5">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:37:04 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A72570F-5097-6045-B516-CC057CB7E655" name="COLEGIAT_PK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-02 09:44:11 UTC</createdTime>
+<generatorID>3F6F4E34-AAF5-001B-8D83-120A99B88812</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="410675EF-E196-FADB-DA13-742B3FA9A3C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

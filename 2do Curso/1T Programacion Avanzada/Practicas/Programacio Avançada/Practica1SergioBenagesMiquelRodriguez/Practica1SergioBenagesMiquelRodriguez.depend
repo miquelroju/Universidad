@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1665041704 source:c:\users\mique\desktop\tecnocampus\programacio avançada\practica1sergiobenagesmiquelrodriguez\main.cpp
+	<iostream>
+
+1666076369 source:c:\users\mique\desktop\tecnocampus\programacio avançada\practica1sergiobenagesmiquelrodriguez\src\bombeta.cpp
+	"Bombeta.h"
+	<iostream>
+
+1666076284 c:\users\mique\desktop\tecnocampus\programacio avançada\practica1sergiobenagesmiquelrodriguez\include\bombeta.h
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Maker</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ <!-- Formulari selecciona la imatge i el número de peces del puzle.  -->
+
+  <div id="form-menu">
+    <img src = "imatges/logo.png" style = "width: 300px; height: auto; z-index: 21;">
+
+    <div id = "wrap">
+      <h2>Escull una imatge</h2>
+
+      <!-- 5 menú que permet escollir imatges i/o el número de peces-->
+      <table>
+        <img src="./imatges/img-2.jpg" id = "img2">
+        <img src="./imatges/img-3.jpg" id = "img3">
+        <img src="./imatges/img-4.jpg" id = "img4">
+        <img src="./imatges/img-5.jpg" id = "img5">
+      </table>
+
+      <h2>Escull el nombre de files i columnes</h2>
+
+      <div id = "form">
+        <label>Files = </label>
+        <input id = "files" type = "number" min = "2" max = "20" value = "2">
+        <label>Columnes = </label>
+        <input id = "columnes" type = "number" min = "2" max = "20" value = "2">
+      </div>
+      <!--5 ------------------------------------------------------>
+      <p><input type="button" value="JUGAR" id="jugar" style = "float: none"/></p>
+      
+    </div>
+  </div>
+
+  <div id="form-joc" style="display:none;">
+      <div id="marc-puzzle">
+        <div id="solucio"></div>
+        <div id="peces-puzzle">
+            <div id="f1c1" class="peca"></div><div id="f1c2" class="peca"></div>
+            <div id="f2c1" class="peca"></div><div id="f2c2" class="peca"></div>  
+            <div id="position" class="peca"></div>           
+        </div>
+        <img src = "./imatges/win.png" id = "felicitacio" style = "display: none;">
+      </div>
+
+      <div id = "botons-joc">
+        <p style="text-align: center;"><input type="button" value="Tornar a jugar" id="nouPuzzle" /></p>
+        <p style="text-align: center;"><input type="button" value="Resol el Puzzle" id="resolPuzzle" /></p>
+        <h3>Moviments: </h3>
+      </div>
+
+  </div>
+ 
+  <div id="imatges" style="display:none;">
+    <img id="p-img-2" src="imatges/img-2.jpg" width="800" height="800"/>   
+  </div>
+
+  <div id="imatges" style="display:none;">
+    <img id="p-img-3" src="imatges/img-3.jpg" width="1000" height="525"/>   
+  </div>
+
+  <div id="imatges" style="display:none;">
+    <img id="p-img-4" src="imatges/img-4.jpg" width="1000" height="677"/>   
+  </div>
+
+  <div id="imatges" style="display:none;">
+    <img id="p-img-5" src="imatges/img-5.jpg" width="1000" height="643"/>   
+  </div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/p001-puzzle.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\mique\Desktop\Tecnocampus\Programacio Avançada\.metadata\.plugins\org.eclipse.jdt.core
+40921690.index
+2953891031.index
+1865797976.index
+2462293205.index
+525062761.index

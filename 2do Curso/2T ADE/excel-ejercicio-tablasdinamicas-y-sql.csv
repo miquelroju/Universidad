@@ -1,0 +1,507 @@
+﻿Nombre;Sexo;Pais;Antigüedad;Delgacion;Area;Salario bruto
+Jaume Mateos Pujol;H;EE UU;12/12/1980;Delegación_08;Compras;25.620,00 €
+Ramiro Díez Núñez;H;Argentina;12/01/2004;Delegación_09;Administración;28.438,00 €
+Victoria Tejeda Ruíz;M;Alemania;17/10/1983;Delegación_01;RRHH;46.472,00 €
+Adela Moreno Soler;M;Italia;27/09/2002;Delegación_03;Márqueting;53.275,00 €
+Enric Crespo Gaspart;H;Suecia;12/01/1995;Delegación_08;Administración;64.342,00 €
+Andrés Solsona Antón;H;Noruega;12/09/2007;Delegación_07;Producción;42.609,00 €
+Marga López Pinto;M;Noruega;23/05/1991;Delegación_10;I+D;32.586,00 €
+Claudia Soldevila Jorquera;M;México;06/03/1977;Delegación_10;Producción;39.866,00 €
+Núria Ascaso Díez;M;Italia;28/09/1984;Delegación_10;Compras;42.988,00 €
+Elisabeth Rivera Lorente;M;Brasil;28/05/1994;Delegación_05;Administración;32.700,00 €
+Tomás Serra Sastre;H;EE UU;04/04/1997;Delegación_02;Administración;60.026,00 €
+Elena Pic Ibáñez;M;Alemania;17/07/2007;Delegación_03;Administración;27.553,00 €
+Felip Barbany Oliveras;H;Argentina;28/03/1992;Delegación_01;Márqueting;31.372,00 €
+Gemma Molinero Molina;M;Brasil;03/07/2003;Delegación_05;Finanzas;31.705,00 €
+Sandra Esteve Abellán;M;España;30/10/2008;Delegación_08;Administración;33.404,00 €
+Lluís Romeu Vinyet;H;Venezuela;23/08/2005;Delegación_04;Logística;70.808,00 €
+Ferran Ferrero Manzano;H;Brasil;27/09/1983;Delegación_03;RRHH;28.276,00 €
+Javier Pardo Solsona;H;Finlandia;18/07/1981;Delegación_05;Administración;45.903,00 €
+Mireia Ribó Blasco;M;Finlandia;17/02/1992;Delegación_08;I+D;49.607,00 €
+Antònia Barbany García;M;Suecia;18/01/1991;Delegación_06;Producción;29.338,00 €
+Alberto Fargas Guinart;H;Francia;26/02/1996;Delegación_04;I+D;39.491,00 €
+Elisabet Malet Esteve;M;Venezuela;24/11/1981;Delegación_10;Dirección;47.129,00 €
+Soledad Carulla Herrero;M;España;08/10/1990;Delegación_02;Administración;25.108,00 €
+Leonor Royo Villalta;M;Portugal;27/11/1974;Delegación_09;Producción;44.009,00 €
+Sancho Faus Guzmán;H;Venezuela;18/05/2001;Delegación_08;Producción;31.754,00 €
+Nicolás Roig Trepat;H;Venezuela;22/05/2003;Delegación_04;Administración;29.334,00 €
+Victoria Casanovas Fornós;M;Noruega;18/03/2011;Delegación_02;Producción;72.597,00 €
+Susana Crespillo Pascual;M;Irlanda;22/04/1986;Delegación_03;Producción;59.624,00 €
+Matías Pérez Malet;H;Irlanda;26/06/1984;Delegación_07;Márqueting;30.919,00 €
+Alberto Moreu Vilaplana;H;Alemania;27/06/2012;Delegación_10;Producción;30.190,00 €
+Bea Ballarín Fernández;M;Finlandia;06/01/2002;Delegación_03;Producción;65.804,00 €
+Fernando Roma Vilaplana;H;España;27/03/1990;Delegación_06;Finanzas;42.902,00 €
+Eva Riverola Abellán;M;Dinamarca;23/08/1992;Delegación_08;Compras;63.702,00 €
+Federico Garbajosa Aguirre;H;Dinamarca;01/07/1999;Delegación_10;Finanzas;68.345,00 €
+Lídia Flores Rivero;M;México;25/09/2013;Delegación_04;Logística;57.787,00 €
+Lluc Pastor Becerril;H;Reino Unido;12/05/1975;Delegación_06;Logística;28.069,00 €
+Olga Pujol Brusi;M;España;05/04/1983;Delegación_08;Compras;27.953,00 €
+Arturo Vila Beneyto;H;Dinamarca;28/09/1982;Delegación_03;Dirección;25.812,00 €
+Josep Castanys López;H;Alemania;29/07/1989;Delegación_03;I+D;51.982,00 €
+Adelaida Becerril Nubiola;M;España;12/09/1991;Delegación_04;Producción;43.281,00 €
+Agustí Franc Salas;H;Brasil;19/02/1999;Delegación_10;Producción;42.849,00 €
+Ada Guitart Velasco;M;Dinamarca;10/06/2012;Delegación_09;RRHH;68.732,00 €
+Carla Giménez Jiménez;M;Portugal;04/12/2007;Delegación_03;I+D;62.967,00 €
+Àngels Verdasco Calvo;M;Portugal;13/08/1991;Delegación_07;Producción;61.954,00 €
+Rita Palau Morera;M;Argentina;11/03/1987;Delegación_01;Márqueting;27.439,00 €
+Pau Cavaller Teixidó;H;Reino Unido;30/03/2002;Delegación_09;Administración;44.595,00 €
+Blanca Campillo Abadia;M;Finlandia;18/07/1976;Delegación_08;I+D;28.267,00 €
+Manel  Torras Martín;H;España;20/10/2012;Delegación_07;Administración;28.063,00 €
+Daniel Graells Ortinez;H;Finlandia;25/08/1975;Delegación_06;Finanzas;31.736,00 €
+Adela Ramos Ferrero;M;Italia;08/08/1985;Delegación_08;Finanzas;36.357,00 €
+Eva Gómez Bustos;M;Reino Unido;10/09/2008;Delegación_06;Márqueting;45.440,00 €
+Benjamin Pardo Núñez;H;Francia;28/12/1984;Delegación_02;RRHH;54.590,00 €
+Cristobal Tello Ricart;H;Reino Unido;22/02/1996;Delegación_06;Calidad;32.071,00 €
+Sergi Botella Sala;H;Bélgica;07/11/1997;Delegación_09;Márqueting;56.791,00 €
+Pau Sala Sáenz;H;Finlandia;16/02/1982;Delegación_08;RRHH;66.688,00 €
+Pere Calvo Leal;H;EE UU;28/12/1984;Delegación_07;Producción;33.406,00 €
+Rosalía Ávila Vilalta;M;Argentina;18/03/1984;Delegación_01;Márqueting;54.459,00 €
+Aurora Llorente Pardina;M;Argentina;11/03/1985;Delegación_07;I+D;58.175,00 €
+Mariano Mencos Rivero;H;Suiza;30/04/2011;Delegación_10;Dirección;53.887,00 €
+Valentín Jiménez Montobio;H;EE UU;21/01/1976;Delegación_06;Finanzas;64.879,00 €
+Ricard Aguiló Mencos;H;Reino Unido;22/09/1992;Delegación_03;Administración;26.703,00 €
+Roc Verdasco Ferrero;H;Finlandia;20/03/1992;Delegación_05;Administración;65.429,00 €
+Dolors Grau García;M;Irlanda;07/03/2010;Delegación_01;Finanzas;67.822,00 €
+Marisa Guerrero Iglesias;M;Reino Unido;16/05/1996;Delegación_07;RRHH;48.054,00 €
+Àlvar Capdevila Oliveras;H;Austria;04/05/1980;Delegación_10;RRHH;45.422,00 €
+Marga Bellido Sastre;M;Reino Unido;23/12/1979;Delegación_02;Compras;50.646,00 €
+Sofía Riverola Colón;M;Noruega;07/09/2011;Delegación_02;Administración;56.887,00 €
+Fernando Gálvez Vilaplana;H;Noruega;19/09/2013;Delegación_03;Compras;70.127,00 €
+Benito Blasco Palacios;H;Noruega;02/04/1993;Delegación_02;Compras;69.530,00 €
+Valentí Roca Molina;H;Reino Unido;04/02/2006;Delegación_02;Compras;32.258,00 €
+Leonor Antón Pastor;M;Bélgica;02/04/2006;Delegación_01;Finanzas;69.869,00 €
+Vanesa Vilaplana Arias;M;Dinamarca;08/02/1987;Delegación_08;Informática;55.875,00 €
+Paula Junqueras Martorell;M;Suiza;23/02/2009;Delegación_09;Producción;45.359,00 €
+Amancio Malet Seguer;H;Reino Unido;28/02/1984;Delegación_01;Calidad;50.159,00 €
+Rodrigo Poveda Torner;H;Reino Unido;16/01/1994;Delegación_05;Producción;58.609,00 €
+Eulàlia Rámiz Crespo;M;Bélgica;10/08/1978;Delegación_08;Dirección;40.889,00 €
+Gemma Cardó Seguer;M;Italia;02/12/1994;Delegación_06;Informática;29.641,00 €
+Antonio Verdú Elias;H;Francia;30/12/1982;Delegación_01;Compras;35.700,00 €
+Benito Sáez Ibáñez;H;Suiza;19/08/2000;Delegación_09;I+D;70.969,00 €
+Roc Grau Mata;H;Suecia;23/02/1991;Delegación_05;I+D;39.170,00 €
+Fernando Domenec Gaspart;H;Suiza;18/01/1997;Delegación_04;Compras;51.915,00 €
+Francesc Verdaguer Abadia;H;Brasil;20/06/1989;Delegación_10;RRHH;59.410,00 €
+Lídia Serrallonga Freixas;M;Noruega;09/01/1975;Delegación_02;Informática;43.406,00 €
+Ona Ávila Caso;M;Noruega;03/05/1985;Delegación_01;Compras;57.985,00 €
+Sofía Vázquez Tomás;M;Portugal;19/11/2001;Delegación_01;Informática;51.193,00 €
+Gemma Díez Navarro;M;Portugal;13/08/1990;Delegación_08;Márqueting;29.756,00 €
+Agustí Jiménez Gonzalez;H;Francia;20/01/1988;Delegación_02;Administración;37.013,00 €
+Lucas Martí Herrero;H;Austria;22/02/1977;Delegación_08;Logística;59.972,00 €
+Marga Arana Rigau;M;Portugal;18/04/1997;Delegación_08;Producción;37.742,00 €
+Benjamin Arcos Villar;H;Francia;03/07/1988;Delegación_10;Producción;40.314,00 €
+Clara Becerra Sallent;M;Canadá;03/08/1997;Delegación_03;Administración;39.641,00 €
+Carles Santisteban Galí;H;Argentina;28/02/1981;Delegación_09;Producción;68.703,00 €
+Miguel Verdasco Santos;H;Canadá;14/04/2008;Delegación_09;I+D;53.218,00 €
+Manel Palacios Vilalta;H;Reino Unido;12/05/1978;Delegación_02;Administración;73.487,00 €
+Gregorio Pardina Rubio;H;Suiza;05/11/1989;Delegación_09;Producción;33.748,00 €
+Alba Grifols Villalta;M;EE UU;22/01/1977;Delegación_05;Producción;36.442,00 €
+Ot Ponts Carulla;H;Finlandia;10/10/1992;Delegación_08;RRHH;66.600,00 €
+Alba Castanys Ribó;M;Italia;15/02/1999;Delegación_06;Compras;68.364,00 €
+Àngel Juncosa Marcos;H;Suiza;01/03/1981;Delegación_09;Márqueting;30.118,00 €
+Sònia Ricart Soria;M;Alemania;29/08/1983;Delegación_07;I+D;33.521,00 €
+Ester Ferrero Garbajosa;M;Italia;17/10/2008;Delegación_10;Producción;37.408,00 €
+Ot Bellido Romero;H;Alemania;17/03/1977;Delegación_01;Logística;43.457,00 €
+Margarita Pajares Rivero;M;Suecia;27/12/1991;Delegación_06;Márqueting;67.580,00 €
+Eulàlia Ramos Rueda;M;Francia;01/06/1998;Delegación_10;Producción;70.177,00 €
+Rita Vilalta Fornós;M;Finlandia;02/05/1994;Delegación_06;Administración;29.982,00 €
+Àlvar Gracia Aguilar;H;Brasil;09/02/2007;Delegación_06;Dirección;36.564,00 €
+Ester Garrido Tarragó;M;Francia;18/04/2000;Delegación_10;Compras;52.343,00 €
+Ana Tejero Barbany;M;Suecia;07/10/1982;Delegación_03;Márqueting;35.258,00 €
+Donato Grifols Herrero;H;Brasil;25/06/2002;Delegación_09;Compras;57.010,00 €
+Isabel Navarro Gago;M;Bélgica;11/11/2003;Delegación_09;Administración;36.666,00 €
+Mariona Altarriba Grifols;M;Suecia;19/10/1988;Delegación_05;Administración;68.486,00 €
+Andrés Barbany Fornós;H;Portugal;14/09/2012;Delegación_03;Producción;35.373,00 €
+Eli Ramos Juncosa;M;Suecia;21/08/2005;Delegación_05;Administración;54.367,00 €
+Ingrid Benedito Morientes;M;Noruega;05/01/1995;Delegación_04;Compras;74.729,00 €
+Dídac Camps Martín;H;España;12/03/1998;Delegación_10;Compras;61.886,00 €
+Diego Polo Soria;H;Noruega;14/08/2002;Delegación_06;RRHH;62.931,00 €
+Sandra Mena Aguiló;M;Bélgica;23/03/1990;Delegación_10;Logística;47.521,00 €
+Ona Morera Zamora;M;Argentina;07/10/1990;Delegación_03;Márqueting;43.912,00 €
+Óscar Bueno Bustos;H;Francia;18/03/1994;Delegación_01;Logística;71.628,00 €
+Tomàs Hernan Ferrer;H;Venezuela;01/12/1978;Delegación_05;Producción;43.590,00 €
+Salvador Cabré Trepat;H;Suiza;28/11/1995;Delegación_05;RRHH;72.655,00 €
+Ricard Botella Tejeda;H;Finlandia;24/07/1979;Delegación_06;Administración;26.208,00 €
+Magda Iglesias Juncosa;M;Venezuela;01/03/2002;Delegación_09;Logística;40.310,00 €
+Adelaida Caballero Pelegrí;M;Brasil;18/03/1995;Delegación_10;Informática;25.935,00 €
+Mireia Mariné Zabala;M;España;21/09/1987;Delegación_08;Administración;67.345,00 €
+Pía Sales Armada;M;México;20/05/2004;Delegación_04;Administración;57.282,00 €
+Ruben Paredes Escolano;H;EE UU;10/02/1983;Delegación_04;Márqueting;44.094,00 €
+Victoria Gago Vilaplana;M;Argentina;16/12/1998;Delegación_10;RRHH;45.373,00 €
+Carmen Bellido Cuadrado;M;Reino Unido;30/05/1975;Delegación_10;Producción;74.428,00 €
+Sancho Mata Fernandez;H;Noruega;27/09/1998;Delegación_06;I+D;42.753,00 €
+Sara Benedito Martín;M;Irlanda;03/08/2012;Delegación_05;Administración;27.383,00 €
+Soledad Morientes Escolano;M;Argentina;07/02/1989;Delegación_02;Compras;46.600,00 €
+Carmen Herranz Molinero;M;España;11/06/1988;Delegación_10;Administración;58.863,00 €
+Mónica Nieto Brull;M;Italia;04/07/1987;Delegación_05;Informática;68.260,00 €
+Leonor Quiles Pons;M;Dinamarca;21/11/1986;Delegación_03;Informática;59.192,00 €
+Martí Vinyals Graells;H;Alemania;23/12/2008;Delegación_06;Calidad;48.347,00 €
+Marcial Cavaller Gómez;H;Italia;30/03/2004;Delegación_10;Logística;64.544,00 €
+Lídia Romaní Mas;M;México;24/01/1991;Delegación_03;Logística;69.472,00 €
+Cristobal Nadal Royo;H;Dinamarca;21/05/1974;Delegación_01;Márqueting;51.437,00 €
+Carmen Suñol Ramírez;M;Brasil;27/03/1989;Delegación_02;Producción;45.362,00 €
+Conrad Hinojosa Capell;H;Brasil;29/10/1998;Delegación_09;Informática;74.706,00 €
+Àngel Martinez Montobio;H;Suecia;22/11/1981;Delegación_10;Logística;65.867,00 €
+Olga Florensa Nieto;M;Italia;02/09/1999;Delegación_07;Informática;40.745,00 €
+Josefina Galíndez Modolell;M;Finlandia;07/07/1976;Delegación_07;Finanzas;26.864,00 €
+Óscar Seguer Gil;H;México;07/12/2003;Delegación_06;Producción;52.276,00 €
+Pau Palomo Hinojosa;H;Bélgica;11/02/1980;Delegación_08;Producción;72.621,00 €
+Tomás Morante Guerrero;H;Italia;15/02/1974;Delegación_08;Producción;63.706,00 €
+Domènec Becerra Pi;H;Francia;19/10/1985;Delegación_10;Finanzas;59.434,00 €
+Valentín Ribó Blasco;H;Suecia;14/02/1999;Delegación_09;Administración;67.420,00 €
+Agustí Sala Galíndez;H;Suecia;23/02/2011;Delegación_09;Producción;38.175,00 €
+Judith Aguiló Moreu;M;Brasil;01/10/2011;Delegación_03;I+D;69.956,00 €
+Trini Tejeda Guinart;M;Dinamarca;28/09/1974;Delegación_05;Dirección;71.276,00 €
+Lucas Reyes Garrido;H;Reino Unido;11/01/2000;Delegación_04;Márqueting;49.362,00 €
+Jofre Hernández Becerril;H;México;08/01/2007;Delegación_03;Producción;32.756,00 €
+Benjamin Ferrero Pastor;H;Brasil;14/12/1981;Delegación_03;Administración;46.597,00 €
+Benjamin Arias Navarro;H;Portugal;04/04/1996;Delegación_04;I+D;30.088,00 €
+Ana Juncosa Balaguer;M;Francia;16/09/2008;Delegación_02;Producción;58.304,00 €
+Cristobal Puig Álvarez;H;Brasil;21/10/1987;Delegación_10;Logística;41.645,00 €
+Eli Díez Morientes;M;México;02/08/1996;Delegación_02;Producción;26.640,00 €
+Araceli Busquets Tomás;M;España;02/07/1993;Delegación_08;Informática;40.030,00 €
+Fernando Fàbregas Altarriba;H;Suecia;13/05/2002;Delegación_02;I+D;30.678,00 €
+Margarita Palomo Gil;M;Venezuela;13/07/1987;Delegación_08;Producción;36.368,00 €
+Ricard Fargas Grau;H;Suecia;16/12/1976;Delegación_07;Finanzas;26.333,00 €
+Rosario Marcos Valverde;M;Suiza;03/01/1978;Delegación_06;Producción;59.808,00 €
+Gemma Tomás Sáez;M;Argentina;16/05/1998;Delegación_05;Administración;33.454,00 €
+Tomás Rius Tarragó;H;Finlandia;25/08/1988;Delegación_04;Administración;38.607,00 €
+Ricard Sales Arana;H;Austria;11/02/2007;Delegación_01;Compras;65.768,00 €
+Ferran Leal Benito;H;Irlanda;31/08/1975;Delegación_06;Márqueting;25.025,00 €
+Valentín Moreu Sanchís;H;Alemania;04/09/1997;Delegación_05;I+D;46.931,00 €
+Gemma Cardó Abellán;M;Portugal;08/12/1974;Delegación_09;Informática;27.907,00 €
+Fabián Giralt Caso;H;Brasil;11/11/1975;Delegación_04;Márqueting;67.668,00 €
+Petra Tomás Bustos;M;Canadá;04/09/1987;Delegación_06;Logística;49.387,00 €
+Helena Fortuny López;M;Noruega;09/11/1993;Delegación_07;Finanzas;33.322,00 €
+Ana Paredes Molinero;M;Brasil;18/09/1999;Delegación_04;Finanzas;25.784,00 €
+Mercè Fornesa Castaño;M;Suiza;18/11/2013;Delegación_05;Producción;69.210,00 €
+Jordi Muñoz Suñol;H;Venezuela;25/06/1997;Delegación_01;Márqueting;69.374,00 €
+Mireia Suñol Abadia;M;Argentina;26/02/2002;Delegación_09;Producción;39.778,00 €
+Ona Hernández Becerril;M;Argentina;13/07/1998;Delegación_03;Márqueting;61.416,00 €
+Victoria Navarrete Poveda;M;Suiza;04/07/2013;Delegación_03;Márqueting;26.716,00 €
+Agustina Benedito Crespo;M;Portugal;19/05/2003;Delegación_08;Márqueting;51.536,00 €
+Mariona Rivalta Rius;M;Venezuela;17/04/1974;Delegación_04;Compras;64.694,00 €
+Javier Sans Valverde;H;Finlandia;20/01/2006;Delegación_05;Administración;62.656,00 €
+Adela Cuadrado Bueno;M;Suecia;04/10/1998;Delegación_04;Márqueting;74.800,00 €
+Mercè Garbajosa Sáenz;M;Noruega;01/07/1975;Delegación_06;Administración;36.679,00 €
+Carmen Antón Pons;M;Argentina;21/12/1978;Delegación_07;I+D;63.650,00 €
+Àngels Hinojosa Sales;M;Suiza;05/11/2010;Delegación_03;Administración;38.879,00 €
+Josefina Carrasco Garrido;M;Finlandia;09/07/1985;Delegación_03;Logística;37.189,00 €
+Araceli Oliveras Alonso;M;Suecia;09/08/1990;Delegación_09;Producción;50.418,00 €
+Amancio Muntadas Blasco;H;Suecia;04/02/1993;Delegación_05;Finanzas;55.754,00 €
+Anna Armada Cardó;M;Reino Unido;20/03/1984;Delegación_07;Producción;30.695,00 €
+Roc Milá Guerrero;H;Noruega;15/08/1987;Delegación_09;Administración;66.393,00 €
+Pía López Abellán;M;Canadá;11/06/1977;Delegación_06;Producción;61.346,00 €
+Jofre Ruíz Cavaller;H;Austria;11/03/2003;Delegación_10;Producción;45.689,00 €
+Remei Fortuny Sáenz;M;Francia;06/11/2004;Delegación_09;Dirección;66.177,00 €
+Antònia Pic Mulera;M;Dinamarca;13/05/1974;Delegación_05;Administración;67.853,00 €
+Maurici Morera Rius;H;Reino Unido;05/01/1997;Delegación_08;Calidad;74.219,00 €
+Cayetano Quintana Caballero;H;Austria;20/02/1985;Delegación_04;RRHH;40.193,00 €
+Berta Ricart Crespo;M;Alemania;10/11/2012;Delegación_02;Producción;45.072,00 €
+Enric Cuenca Faus;H;Portugal;21/02/2010;Delegación_02;Márqueting;52.469,00 €
+Trini Sans Bravo;M;Reino Unido;19/02/1986;Delegación_09;I+D;32.562,00 €
+Donato Salas Armada;H;Noruega;21/11/2005;Delegación_07;Márqueting;56.805,00 €
+Sofía Tarragó Herranz;M;Alemania;15/11/1999;Delegación_02;Compras;74.774,00 €
+Vanesa Pons Rovira;M;EE UU;20/09/1996;Delegación_04;Logística;26.583,00 €
+Carla Guzmán Vilalta;M;Bélgica;17/06/1993;Delegación_06;Informática;42.388,00 €
+Jofre Freixas Simón;H;Irlanda;06/12/1980;Delegación_04;Compras;71.747,00 €
+Frederic Cavaller Fornesa;H;Canadá;03/12/1975;Delegación_05;Informática;53.345,00 €
+Trini Massó Rueda;M;Alemania;30/12/1996;Delegación_10;Administración;52.101,00 €
+Ot Alonso Esteban;H;Suiza;23/08/1974;Delegación_04;I+D;67.198,00 €
+Jaume Julià Miralles;H;Alemania;10/04/2005;Delegación_04;RRHH;35.130,00 €
+Martí Soria Abellán;H;Irlanda;09/10/2000;Delegación_08;Márqueting;71.271,00 €
+Marc Ruíz Pi;H;Portugal;27/07/1976;Delegación_07;Producción;36.568,00 €
+Jordi Herranz Cardona;H;México;06/08/2001;Delegación_04;Compras;52.460,00 €
+Esther Planas Carballo;M;Dinamarca;31/10/1987;Delegación_04;Producción;40.129,00 €
+Cristobal Santos Tejero;H;Suiza;20/02/2009;Delegación_02;RRHH;68.693,00 €
+Soledad Beneyto Viladomiu;M;Austria;25/08/1991;Delegación_06;Administración;48.990,00 €
+Rosa Villar Crespillo;M;Venezuela;06/12/2002;Delegación_06;Logística;40.409,00 €
+Petra Gordillo Martí;M;Bélgica;09/06/1994;Delegación_06;Producción;32.073,00 €
+Ferran Aguirre Fàbregas;H;Portugal;23/01/1977;Delegación_09;I+D;35.062,00 €
+Ferran Hinojosa Molinero;H;Finlandia;14/11/2005;Delegación_04;Calidad;41.830,00 €
+Araceli Romeu Coll;M;Irlanda;11/12/2002;Delegación_03;Producción;45.731,00 €
+Agustina Martí Fàbregas;M;Canadá;18/06/2009;Delegación_08;Dirección;31.114,00 €
+Susana Paredes Ballarín;M;Reino Unido;30/10/2013;Delegación_10;Informática;36.940,00 €
+Pau Hinojosa Capdevila;H;España;28/01/1993;Delegación_02;Administración;54.281,00 €
+Anna Arcos Suñol;M;Reino Unido;06/10/2005;Delegación_09;Informática;49.663,00 €
+Alberto Mateu Nadal;H;Suiza;03/07/1999;Delegación_08;Dirección;72.138,00 €
+Josep Caso Paredes;H;España;13/11/2008;Delegación_03;Administración;30.530,00 €
+Ingrid Escolano Lozano;M;Argentina;19/11/2001;Delegación_03;Administración;57.944,00 €
+Lucas Roig Cámara;H;España;14/07/1977;Delegación_02;RRHH;42.235,00 €
+Paula Forn Abadal;M;España;15/10/1976;Delegación_05;Producción;49.047,00 €
+Oriol Ibáñez Blanch;H;Suiza;06/12/1996;Delegación_10;Finanzas;64.629,00 €
+Marisa Sáenz Rivera;M;Alemania;30/08/1999;Delegación_03;Logística;44.926,00 €
+Enrique Santos Pascual;H;México;26/05/2002;Delegación_05;Finanzas;51.018,00 €
+Rosalía Mirón Pou;M;España;29/04/1979;Delegación_05;Producción;27.417,00 €
+Natàlia Pajares Crespillo;M;Suiza;14/12/1976;Delegación_01;Administración;43.480,00 €
+Natàlia Pic Galíndez;M;EE UU;09/10/1998;Delegación_08;Producción;72.579,00 €
+Daniel Moreu Graells;H;Reino Unido;21/10/2003;Delegación_05;Producción;30.306,00 €
+Óscar Gil Romeva;H;Reino Unido;21/04/2005;Delegación_08;Márqueting;52.953,00 €
+Andrés Rueda Collado;H;Austria;22/06/1993;Delegación_03;RRHH;27.894,00 €
+Montse Villalta Mencos;M;Portugal;20/03/1984;Delegación_04;RRHH;33.792,00 €
+Dídac Brusi Hormigo;H;Dinamarca;11/05/1989;Delegación_02;Márqueting;55.122,00 €
+Roger Zamora Palacios;H;EE UU;27/11/1997;Delegación_04;I+D;42.375,00 €
+Marc Marcos Fernández;H;Noruega;24/04/1983;Delegación_02;Dirección;52.100,00 €
+Estrella Vilaseca Grau;M;Argentina;21/04/1988;Delegación_09;RRHH;44.337,00 €
+Oriol Blasco Faus;H;Portugal;16/10/1993;Delegación_10;Calidad;67.756,00 €
+Antònia Rivalta Morán;M;Suiza;21/07/1991;Delegación_05;Administración;34.172,00 €
+Óscar Ruíz Rupérez;H;Suiza;09/10/1999;Delegación_01;Producción;60.978,00 €
+Ester Garbajosa Caballé;M;Bélgica;08/05/2000;Delegación_04;Compras;34.747,00 €
+Susana Zamora Ávila;M;Irlanda;24/12/2005;Delegación_07;Producción;70.200,00 €
+Pere Montobio Solsona;H;Reino Unido;12/05/1978;Delegación_03;RRHH;50.898,00 €
+Arnau Poveda Manzano;H;Bélgica;03/10/1978;Delegación_01;Finanzas;27.155,00 €
+Nicolás Puig Ballester;H;Dinamarca;11/07/1990;Delegación_01;Administración;71.347,00 €
+Oriol Rivalta Gonzalez;H;Austria;04/11/1987;Delegación_08;I+D;30.414,00 €
+Gemma Bigas Caballé;M;Irlanda;14/10/2005;Delegación_03;Finanzas;50.308,00 €
+Amancio Vila Mariné;H;Noruega;10/04/1975;Delegación_01;Producción;30.253,00 €
+Josep Valero Pelegrí;H;Finlandia;23/11/2000;Delegación_03;Compras;73.214,00 €
+Soledad Elias Esteve;M;Suiza;17/04/1978;Delegación_09;Compras;68.502,00 €
+Mireia Fayos Freixas;M;Suiza;03/10/2005;Delegación_03;I+D;55.329,00 €
+Dolors Calvo Solanes;M;España;20/08/1986;Delegación_06;Dirección;64.092,00 €
+Marga Abadal Barbany;M;Bélgica;05/05/1998;Delegación_09;Producción;73.899,00 €
+Miguel Puig Tejero;H;Portugal;20/04/2009;Delegación_10;Producción;47.598,00 €
+Enrique Gaspart Hormigo;H;Argentina;23/07/1978;Delegación_08;Finanzas;61.318,00 €
+Adela Palau Valverde;M;México;28/03/1994;Delegación_04;Producción;54.030,00 €
+Araceli Salas Grau;M;Noruega;26/11/2012;Delegación_08;Administración;55.356,00 €
+Antònia Mayoral Lluch;M;Argentina;18/12/1982;Delegación_08;I+D;72.459,00 €
+Benet Polo Álvarez;H;Austria;03/07/2012;Delegación_08;Calidad;70.283,00 €
+Leandro Verdasco Polo;H;Alemania;08/02/1986;Delegación_01;Producción;61.806,00 €
+David Medina Febrer;H;Noruega;02/01/1989;Delegación_03;Márqueting;26.751,00 €
+Ada Sunyol Ramírez;M;Dinamarca;13/04/2006;Delegación_03;Logística;33.000,00 €
+Arnau Moreu Busquets;H;Reino Unido;25/03/2001;Delegación_01;Logística;37.570,00 €
+Andrés Vilaseca Franc;H;Venezuela;26/01/2007;Delegación_10;Finanzas;33.635,00 €
+Àngel Ruiz Fornós;H;España;21/12/1982;Delegación_08;Producción;38.995,00 €
+Teresa Garbajosa Ascaso;M;Austria;12/01/1992;Delegación_02;Márqueting;51.064,00 €
+Teresa Herranz Ponts;M;México;11/03/1974;Delegación_10;Producción;60.793,00 €
+Felip Vidal Orti;H;Francia;04/02/1985;Delegación_07;Producción;41.546,00 €
+Lluc Ruíz Sancho;H;Canadá;11/02/2007;Delegación_05;Finanzas;64.697,00 €
+Laura Herranz Lucas;M;Alemania;26/01/2003;Delegación_03;Márqueting;48.424,00 €
+Mónica Franc Esteve;M;Francia;17/01/1997;Delegación_03;Producción;47.473,00 €
+Claudia Orellana Altarriba;M;Suecia;06/12/1985;Delegación_01;RRHH;67.812,00 €
+Sofía Quiles Mas;M;Austria;07/10/1997;Delegación_09;Calidad;37.366,00 €
+Alberto Mulera López;H;Dinamarca;25/07/2009;Delegación_02;I+D;36.794,00 €
+Arnau Orús Casals;H;Italia;20/08/2012;Delegación_01;Compras;28.358,00 €
+Jofre Pons Bigas;H;Venezuela;02/06/1986;Delegación_01;Logística;60.555,00 €
+Rosario Rupérez Freixas;M;Francia;14/02/1986;Delegación_09;Finanzas;29.094,00 €
+Aurora Rupérez Fernandez;M;Canadá;14/02/1977;Delegación_10;Informática;56.316,00 €
+Àngel Martinez Fernandez;H;Italia;26/05/2004;Delegación_07;Producción;38.248,00 €
+Enric Viñeta Roca;H;Bélgica;15/01/2011;Delegación_10;Administración;54.380,00 €
+Bea Sales Alonso;M;Venezuela;17/10/1983;Delegación_02;Compras;54.533,00 €
+Ismael Ribas Merlos;H;Alemania;21/11/1988;Delegación_09;Compras;69.428,00 €
+Sandra Carreras Cámara;M;Argentina;13/05/1978;Delegación_02;Finanzas;49.290,00 €
+Nil Martí López;H;Bélgica;18/04/1995;Delegación_01;Administración;65.746,00 €
+Montse Núñez Altarriba;M;Alemania;10/06/1975;Delegación_10;Producción;60.805,00 €
+Soledad Antón Campillo;M;Austria;27/03/1985;Delegación_03;Calidad;26.936,00 €
+Remei Ávila Marcos;M;Canadá;07/02/1996;Delegación_07;Finanzas;28.505,00 €
+Mariano Crespillo Julià;H;Reino Unido;15/05/1995;Delegación_07;Dirección;72.672,00 €
+Marcial Verdaguer Bigas;H;Italia;29/11/2011;Delegación_08;Producción;68.715,00 €
+Elisabeth Teixidó Pi;M;Canadá;01/01/1988;Delegación_06;Administración;65.213,00 €
+Ruben Nubiola Zayas;H;Austria;08/02/2003;Delegación_02;Producción;71.325,00 €
+Eulàlia Gonzalez Fayos;M;Austria;11/07/2011;Delegación_10;Producción;63.203,00 €
+Estrella Reyes Meléndez;M;Irlanda;01/07/1997;Delegación_09;Producción;69.453,00 €
+Claudia Velasco Manzano;M;Dinamarca;01/11/2003;Delegación_02;Producción;32.902,00 €
+Ingrid Romaní Lluch;M;Canadá;03/08/1996;Delegación_03;Compras;33.403,00 €
+Ramiro Brull Piqué;H;Dinamarca;01/01/2014;Delegación_02;Producción;37.798,00 €
+Irene Pou Collado;M;Brasil;26/11/1983;Delegación_09;I+D;54.470,00 €
+Diego Pardo Cuadrado;H;Irlanda;28/08/1988;Delegación_07;Administración;65.974,00 €
+Benet Milá Molina;H;Canadá;08/05/2001;Delegación_03;Logística;45.616,00 €
+Dídac Ortega Domenec;H;Finlandia;03/04/1988;Delegación_10;Informática;42.340,00 €
+David Rivero Milá;H;EE UU;30/05/1991;Delegación_06;Compras;53.286,00 €
+Roberto Herranz Teixidó;H;México;25/12/2009;Delegación_02;Administración;41.168,00 €
+Josefina Galíndez Botella;M;Irlanda;15/10/2000;Delegación_03;Producción;33.006,00 €
+Mireia Zabala Collado;M;Reino Unido;19/10/1979;Delegación_04;Administración;50.366,00 €
+Àlex Oller Oller;H;Suiza;26/01/1993;Delegación_06;Administración;41.846,00 €
+Roc Guitart Salgado;H;Austria;13/05/1986;Delegación_10;Administración;66.076,00 €
+Margarita Riverola Capell;M;Italia;08/07/2000;Delegación_04;Finanzas;48.245,00 €
+Clara Hormigo Gracia;M;Finlandia;18/05/2007;Delegación_03;Logística;62.615,00 €
+Laura Donate Molina;M;EE UU;12/05/2011;Delegación_01;Logística;32.900,00 €
+Jaume Royo Molina;H;Venezuela;22/01/1998;Delegación_05;Administración;39.741,00 €
+Ada Lluch Bustos;M;Finlandia;16/05/2004;Delegación_10;Producción;51.474,00 €
+Javier Jerez Velasco;H;Austria;25/02/1981;Delegación_03;RRHH;58.517,00 €
+Mariona Ferrer Brull;M;Francia;04/07/1993;Delegación_05;Producción;59.153,00 €
+Gregorio Martín Hormigo;H;Suiza;05/05/2008;Delegación_09;Administración;25.446,00 €
+Adelaida Milá Bueno;M;Reino Unido;11/12/1974;Delegación_06;Producción;50.889,00 €
+Fabián Pardina Riverola;H;Brasil;13/04/1977;Delegación_04;Informática;37.149,00 €
+Magda Rivero Cabré;M;Suiza;16/01/1997;Delegación_08;Producción;60.688,00 €
+Ruben Botella Pardo;H;Austria;29/09/2001;Delegación_07;RRHH;42.630,00 €
+Lluís Julià Palomo;H;Italia;30/09/2000;Delegación_06;Administración;39.637,00 €
+Fabián Garbajosa Vinyals;H;Bélgica;06/06/1984;Delegación_01;Márqueting;53.867,00 €
+Elisabet Moreu Seguer;M;México;26/06/1978;Delegación_09;RRHH;55.312,00 €
+Gregorio Milá Mencos;H;Dinamarca;28/07/2002;Delegación_03;Márqueting;57.280,00 €
+Pau Carballo Pascual;H;Finlandia;17/01/1980;Delegación_08;Compras;73.528,00 €
+Rosalía Ruíz Rius;M;Brasil;19/12/1989;Delegación_01;Finanzas;64.089,00 €
+Margarita Faus Sánchez;M;Reino Unido;26/03/1981;Delegación_05;Márqueting;38.989,00 €
+Martí Solsona Febrer;H;Canadá;26/10/1983;Delegación_02;Producción;34.111,00 €
+Eduard Lorente Bravo;H;Portugal;12/01/1989;Delegación_09;Calidad;26.073,00 €
+Pau Calvo Riverola;H;Suecia;21/02/2006;Delegación_02;Administración;34.640,00 €
+Benjamin Leal Herrero;H;Venezuela;20/06/2001;Delegación_02;RRHH;25.010,00 €
+Maurici Martín Juncosa;H;Francia;21/02/2007;Delegación_01;Informática;65.078,00 €
+Elena Romeva Sanchís;M;Brasil;24/11/1977;Delegación_10;I+D;64.154,00 €
+Sergi Freixas Benito;H;Reino Unido;24/08/1994;Delegación_07;Finanzas;32.549,00 €
+Cristina Mena Sancho;M;Argentina;28/07/1994;Delegación_07;Administración;56.761,00 €
+Antònia Bigas Gordillo;M;Alemania;15/11/1996;Delegación_09;Producción;72.855,00 €
+Agustí Zamora Guardiola;H;Brasil;23/06/2002;Delegación_02;Logística;44.757,00 €
+Diego Jiménez Mas;H;Noruega;27/09/1987;Delegación_09;Calidad;74.990,00 €
+Sara Brusi Castanys;M;Finlandia;20/02/2002;Delegación_01;Compras;26.870,00 €
+Miguel Pelegrí Rodrigo;H;Dinamarca;13/11/1995;Delegación_07;Compras;52.696,00 €
+Àlvar Moreu Cardona;H;Italia;16/12/2012;Delegación_09;Administración;30.453,00 €
+Mercè Manzano Serrano;M;Suiza;16/01/1997;Delegación_01;Administración;47.773,00 €
+Àngel Pastor Tejero;H;Brasil;02/02/1980;Delegación_09;Finanzas;47.612,00 €
+Marga Pérez Merlos;M;Irlanda;14/01/1998;Delegación_06;Producción;52.742,00 €
+Araceli Royo Altarriba;M;EE UU;02/11/2013;Delegación_08;Producción;46.501,00 €
+Agustina Grifols Suñol;M;México;02/11/2009;Delegación_02;Producción;43.411,00 €
+Zaida Bueno Capdevila;M;España;05/05/2005;Delegación_02;Producción;30.354,00 €
+Rosa Ferrero Guardiola;M;Dinamarca;10/01/2001;Delegación_06;Administración;74.290,00 €
+Rodrigo Ibáñez Hernan;H;Argentina;02/05/1977;Delegación_05;Compras;49.081,00 €
+Sancho Hinojosa Sans;H;Irlanda;12/03/1980;Delegación_09;Dirección;63.366,00 €
+Fabián Velasco Guinart;H;Dinamarca;16/10/1990;Delegación_04;Informática;25.048,00 €
+Francesc Blasco Palau;H;Alemania;20/08/2012;Delegación_04;Administración;48.820,00 €
+Donato Ballarín Navarrete;H;Argentina;26/04/1983;Delegación_02;Logística;33.995,00 €
+Alba Guitart Bravo;M;Noruega;14/04/1990;Delegación_01;RRHH;53.631,00 €
+Magda Méndez Pic;M;Suecia;28/09/1978;Delegación_01;Producción;50.967,00 €
+Felip Velasco Bigas;H;Reino Unido;15/01/1989;Delegación_07;Compras;68.301,00 €
+Leonor Tomás Cuenca;M;Venezuela;25/05/1982;Delegación_02;Administración;71.867,00 €
+Arturo Bustos Vila;H;Suecia;18/04/2013;Delegación_09;Márqueting;56.545,00 €
+Roberto Febrer Jerez;H;Finlandia;18/03/1979;Delegación_08;Calidad;43.027,00 €
+Ricard Hernández Rodríguez;H;Venezuela;09/07/1982;Delegación_08;Producción;68.582,00 €
+Maria Polo Manzano;M;EE UU;20/01/2004;Delegación_05;Compras;60.273,00 €
+Rogelio Quintana Romeva;H;Alemania;27/06/1974;Delegación_05;Finanzas;45.545,00 €
+Lluc Soria Merlos;H;Suecia;26/01/2004;Delegación_01;RRHH;71.481,00 €
+Federico Duch Forn;H;Reino Unido;30/03/1996;Delegación_02;Márqueting;74.530,00 €
+Daniel Navarro Pajares;H;Italia;01/05/1996;Delegación_07;Administración;47.780,00 €
+Plácido Solanes Forn;H;México;01/01/1981;Delegación_04;Finanzas;49.097,00 €
+Cristobal Vilaseca Pardina;H;Venezuela;23/09/1983;Delegación_04;Compras;52.056,00 €
+Margarita Fortuny Miralles;M;Finlandia;14/01/1994;Delegación_09;RRHH;73.895,00 €
+Antònia Mayoral Lucas;M;Canadá;28/02/1999;Delegación_04;Calidad;53.639,00 €
+Valentí Grifols Martí;H;España;29/04/1989;Delegación_06;Compras;26.615,00 €
+Santi Sánchez Mata;H;Bélgica;06/02/2005;Delegación_07;Compras;31.977,00 €
+Domènec Benito Cuenca;H;Venezuela;04/07/1994;Delegación_08;Márqueting;70.736,00 €
+Eduard Casanovas Fornós;H;España;20/03/1994;Delegación_07;Márqueting;58.727,00 €
+Elies Viladomiu Mora;H;Brasil;21/05/1985;Delegación_08;Márqueting;58.397,00 €
+Fabián Malet Abellán;H;Reino Unido;03/05/1989;Delegación_06;Márqueting;52.094,00 €
+David Casasnovas Esteban;H;EE UU;21/09/2013;Delegación_01;Administración;39.738,00 €
+Àngel Brusi Fernández;H;Suecia;08/07/1992;Delegación_01;Producción;41.090,00 €
+Olga Jiménez Lucas;M;España;13/03/1995;Delegación_01;Producción;65.456,00 €
+Elies Planas Méndez;H;EE UU;23/05/1997;Delegación_08;Administración;68.013,00 €
+Manuela Pelegrí Pou;M;Alemania;26/04/2001;Delegación_02;Producción;33.789,00 €
+Agnés Vilaplana Pelegrí;M;Irlanda;24/02/2001;Delegación_10;Administración;59.021,00 €
+Lucas Modolell Valero;H;Reino Unido;22/02/1985;Delegación_03;Producción;68.756,00 €
+Óscar Cámara Fayos;H;Francia;12/08/1982;Delegación_01;I+D;48.494,00 €
+Sofía Riverola Guardiola;M;Bélgica;19/12/1979;Delegación_08;Márqueting;61.251,00 €
+Agnés Bustos Tejedor;M;Venezuela;21/01/1988;Delegación_01;I+D;31.451,00 €
+Ot Rojas Miralles;H;Dinamarca;25/12/2013;Delegación_10;Producción;28.088,00 €
+Andrés  Torras Jorquera;H;Austria;29/10/2003;Delegación_08;Producción;51.872,00 €
+Judith López Cuenca;M;Noruega;17/12/1983;Delegación_07;Logística;48.526,00 €
+Pía Martinez Sastre;M;Irlanda;17/03/1982;Delegación_07;Finanzas;67.003,00 €
+Estrella Verdú Herrera;M;Argentina;01/04/2008;Delegación_01;Producción;52.247,00 €
+Carles Cardó Llorente;H;España;05/04/2005;Delegación_02;Producción;63.589,00 €
+Rosalía Medina Nubiola;M;EE UU;29/01/2006;Delegación_07;Dirección;38.186,00 €
+Sandra Herrero Santisteban;M;Canadá;30/11/1996;Delegación_10;Logística;72.627,00 €
+Antònia Rueda Díaz;M;Austria;01/11/2012;Delegación_06;Calidad;46.129,00 €
+Marcial Colón Sallent;H;Francia;14/01/2005;Delegación_01;Compras;41.456,00 €
+Rita Coll Gaspart;M;EE UU;22/11/1974;Delegación_03;Administración;59.205,00 €
+Antònia Cabré Becerra;M;Canadá;12/07/1983;Delegación_07;RRHH;58.621,00 €
+Mercè Salas Massó;M;Suiza;02/05/1977;Delegación_10;Dirección;32.284,00 €
+Rosalía Armada Teixidó;M;Austria;03/10/1996;Delegación_04;Finanzas;33.136,00 €
+Felip Becerra  Torras;H;Canadá;09/02/1977;Delegación_08;Compras;53.590,00 €
+Agustí Romaní Ruiz;H;Dinamarca;14/02/2013;Delegación_06;Compras;53.487,00 €
+Berta Pic Palau;M;Alemania;07/11/2000;Delegación_10;Finanzas;31.378,00 €
+Roc Ramírez Sancho;H;España;10/01/1993;Delegación_03;Producción;72.936,00 €
+Marisa Abadia Royo;M;Dinamarca;07/02/2009;Delegación_09;Administración;36.541,00 €
+Cayetano Mata Cardona;H;Alemania;08/03/1980;Delegación_04;Producción;44.017,00 €
+Cayetano Tomás Valero;H;Reino Unido;21/05/1986;Delegación_08;Compras;74.208,00 €
+Óscar Rodríguez Mayoral;H;Alemania;20/09/2004;Delegación_10;Administración;33.667,00 €
+Frederic Donate Faus;H;Venezuela;19/08/1985;Delegación_08;Compras;35.520,00 €
+Adela Palau Martinez;M;Italia;10/11/1993;Delegación_05;Finanzas;73.102,00 €
+Adelaida Macià Freixas;M;Austria;26/02/2010;Delegación_05;I+D;43.946,00 €
+Remei Caso Zayas;M;Canadá;07/07/1974;Delegación_07;I+D;45.353,00 €
+Irene Pujol Álvarez;M;Austria;04/01/2011;Delegación_04;Producción;28.564,00 €
+Jofre Sáez Soldevila;H;Austria;11/02/1978;Delegación_02;Producción;31.137,00 €
+Elies Gordillo Pelegrí;H;México;12/07/2004;Delegación_07;Producción;62.950,00 €
+Benet Garrido Zayas;H;Noruega;23/01/1997;Delegación_01;Compras;47.386,00 €
+Clara Guardiola Rámiz;M;Finlandia;04/10/1997;Delegación_02;Dirección;54.175,00 €
+Arturo Gordillo Martos;H;Italia;10/04/1999;Delegación_04;Producción;53.281,00 €
+Andrés Pardina Escolano;H;Canadá;13/12/1992;Delegación_08;Administración;52.651,00 €
+Judith Caballero Fortuny;M;Alemania;24/07/1985;Delegación_04;Informática;31.827,00 €
+Anna Medina Planas;M;Reino Unido;13/11/1980;Delegación_02;Finanzas;60.780,00 €
+Marc Ortega Gonzalez;H;Italia;09/05/1990;Delegación_06;Dirección;27.010,00 €
+Elena Gómez Caso;M;Venezuela;29/04/2006;Delegación_07;Producción;37.735,00 €
+Diego Herranz Moreno;H;México;04/04/2000;Delegación_09;Márqueting;56.206,00 €
+Margarita Ballarín Sancho;M;Francia;30/09/1996;Delegación_01;Producción;26.258,00 €
+Claudia Hinojosa Zamora;M;EE UU;06/04/2013;Delegación_08;Logística;43.566,00 €
+Mireia Blasco Orellana;M;Brasil;08/02/2001;Delegación_01;Logística;44.818,00 €
+Araceli Grifols Fayos;M;Bélgica;11/10/1995;Delegación_01;Producción;53.109,00 €
+Susana Gago Feliu;M;Venezuela;26/01/1976;Delegación_03;Producción;60.122,00 €
+Plácido Cortés Cuadrado;H;Brasil;13/04/1979;Delegación_02;Producción;37.330,00 €
+Estrella Sancho Herrera;M;Suecia;27/07/2013;Delegación_01;Márqueting;41.621,00 €
+Montse Pi Giralt;M;Irlanda;13/07/1980;Delegación_03;RRHH;39.111,00 €
+Agustina Capell Giménez;M;Bélgica;12/06/2012;Delegación_05;Producción;70.897,00 €
+Ester Escolano Campillo;M;Suecia;10/10/1991;Delegación_10;RRHH;55.019,00 €
+Àlvar Valero Moreu;H;EE UU;01/12/1999;Delegación_05;Dirección;59.840,00 €
+Fabián Ávila Benito;H;Bélgica;10/10/1990;Delegación_05;Informática;41.084,00 €
+Marga Martorell Grau;M;EE UU;05/01/1992;Delegación_08;I+D;38.475,00 €
+Zaida Pajares Jover;M;Reino Unido;13/04/1990;Delegación_02;Logística;58.333,00 €
+Àlex Ortega Verdú;H;Argentina;28/09/1977;Delegación_03;RRHH;52.858,00 €
+Ona Mora Roma;M;Italia;19/05/2002;Delegación_01;Administración;59.542,00 €
+Susana Fernandez Guitart;M;Austria;05/08/2002;Delegación_07;Administración;70.552,00 €
+Dídac Tejedor Tarragó;H;Dinamarca;03/09/1982;Delegación_04;Logística;60.641,00 €
+Natàlia Benito Bustillo;M;Argentina;30/10/1978;Delegación_06;Administración;30.341,00 €
+Pau Ribas Piqué;H;Portugal;20/07/1985;Delegación_09;Logística;57.646,00 €
+Rogelio Sallent Gómez;H;Argentina;08/09/2013;Delegación_04;Producción;27.584,00 €
+Olga Carrasco Tejedor;M;Reino Unido;10/11/1982;Delegación_06;Márqueting;63.215,00 €
+Ramiro Ramos Casals;H;Argentina;12/04/1978;Delegación_02;Compras;66.761,00 €
+Claudia Tejeda Iglesias;M;Venezuela;20/09/1993;Delegación_02;Compras;68.805,00 €
+Rodrigo Capdevila Tejero;H;Suecia;14/10/1984;Delegación_05;Compras;64.664,00 €
+Lluc Gálvez Casero;H;Dinamarca;10/12/1980;Delegación_07;RRHH;45.595,00 €
+Flora García Domingo;M;Irlanda;20/12/1981;Delegación_05;Márqueting;57.576,00 €
+Mireia Herrera Vilaseca;M;Alemania;01/10/1990;Delegación_07;Logística;25.550,00 €
+Petra Hormigo Ortega;M;Francia;10/09/1998;Delegación_05;Informática;63.379,00 €
+Anna Roig Núñez;M;Italia;17/09/1989;Delegación_01;RRHH;67.631,00 €
+Jaume Elias Jover;H;España;04/02/1989;Delegación_02;Producción;52.918,00 €
+Miguel Carulla Carulla;H;Argentina;30/04/1987;Delegación_10;RRHH;26.224,00 €
+Maurici Orús Leire;H;Italia;09/07/1979;Delegación_05;Márqueting;54.368,00 €
+Gemma Margarit Guzmán;M;Irlanda;18/02/1988;Delegación_08;RRHH;40.675,00 €
+Cayetano Morera Margarit;H;Argentina;16/04/2006;Delegación_08;Compras;46.628,00 €
+Enrique Pons Suñol;H;México;02/02/1980;Delegación_03;RRHH;53.730,00 €
+Zaida Álvarez Barbany;M;Finlandia;23/06/2010;Delegación_04;Producción;69.888,00 €
+Miguel Pelegrí Esteban;H;Argentina;05/05/2009;Delegación_05;Finanzas;56.683,00 €
+Mariona Medina Bustillo;M;Suiza;06/12/1978;Delegación_03;Finanzas;67.099,00 €
+Margarita Faus Blanch;M;Noruega;26/02/1975;Delegación_06;Producción;33.640,00 €
+Carles Junqueras Paredes;H;Dinamarca;15/08/1986;Delegación_10;Logística;29.135,00 €
+Natàlia Mas Ruíz;M;Portugal;07/01/2012;Delegación_01;Producción;48.586,00 €
+Josefina Oliva Aguiló;M;Dinamarca;13/11/2005;Delegación_09;Compras;55.958,00 €
+Marcial Ruiz Serra;H;EE UU;31/10/1992;Delegación_06;Administración;53.732,00 €
+Montse Castaño Clotet;M;Austria;14/06/2006;Delegación_07;Compras;52.031,00 €
+Alba Ferrer Jerez;M;Noruega;24/02/1986;Delegación_03;Producción;47.876,00 €
+Ricard Pou Pérez;H;Canadá;14/03/2013;Delegación_07;Producción;43.129,00 €
+Leandro Abadal Garrido;H;Reino Unido;21/09/1998;Delegación_07;Finanzas;70.600,00 €
+Óscar Mata Moreu;H;Dinamarca;02/11/1986;Delegación_09;Producción;32.657,00 €
+Sergi Antón Carreras;H;Austria;30/01/1995;Delegación_04;Producción;68.717,00 €
+Rosalía Rojas Rius;M;Suecia;23/12/1978;Delegación_05;Calidad;34.387,00 €
+Josefina Crespillo Ramos;M;Suecia;26/11/1976;Delegación_10;Dirección;28.571,00 €
+Carme Zamora Carulla;M;España;25/08/2013;Delegación_03;Logística;58.339,00 €
+Roc Escribano Gómez;H;Canadá;05/07/1987;Delegación_01;Logística;26.321,00 €
+Tomàs  Torras Vidal;H;Alemania;24/06/1989;Delegación_04;Compras;32.721,00 €
+Marisa Sancho Núñez;M;Finlandia;10/10/2008;Delegación_04;I+D;35.784,00 €
+Blanca Roig Rivalta;M;Italia;22/12/2000;Delegación_02;Administración;51.363,00 €
+Lucas Colón Rivero;H;España;08/05/1986;Delegación_03;Administración;31.667,00 €
+Maria Cardó Lucas;M;Finlandia;08/06/1980;Delegación_02;Administración;54.961,00 €
+Sofía Soldevila Ribas;M;Suiza;18/09/2005;Delegación_07;Compras;65.435,00 €
+Oriol Gorina Mora;H;Francia;03/02/1983;Delegación_10;Administración;45.551,00 €
+Lucas Romero Modolell;H;Brasil;07/11/1996;Delegación_01;Finanzas;60.795,00 €
+Donato Garrido Carreras;H;Noruega;23/09/1976;Delegación_08;Producción;67.520,00 €
+Pía Ibáñez Massó;M;Alemania;10/05/1998;Delegación_01;Finanzas;59.543,00 €
+Lluís Nubiola Giménez;H;Venezuela;04/12/2002;Delegación_04;RRHH;40.511,00 €
+Gemma Capell Pic;M;Brasil;24/07/1974;Delegación_06;Finanzas;58.078,00 €
+Montse Riverola Orti;M;Francia;15/09/1976;Delegación_08;Producción;25.429,00 €
+Claudia Herrero Ramírez;M;Canadá;13/06/2013;Delegación_08;Producción;53.800,00 €
+Sergi Rubio Guzmán;H;España;01/07/1984;Delegación_08;Producción;41.534,00 €
+Pía Oliveras Castaño;M;Irlanda;20/08/2003;Delegación_05;Compras;38.953,00 €
+Óscar Vila Oller;H;Noruega;31/05/1994;Delegación_07;Finanzas;58.647,00 €
+Montse Sans Carrasco;M;Brasil;29/11/2004;Delegación_04;Producción;51.259,00 €
+Mercedes Lorente Altarriba;M;Argentina;14/03/1989;Delegación_04;Administración;34.047,00 €
+;Claudia Herrero Ramírez;M;Canadá;13/06/2013;Delegación_08;Producción
+;Sergi Rubio Guzmán;H;España;01/07/1984;Delegación_08;Producción
+;Pía Oliveras Castaño;M;Irlanda;20/08/2003;Delegación_05;Compras
+;Óscar Vila Oller;H;Noruega;31/05/1994;Delegación_07;Finanzas
+;Montse Sans Carrasco;M;Brasil;29/11/2004;Delegación_04;Producción
+;Mercedes Lorente Altarriba;M;Argentina;14/03/1989;Delegación_04;Administración

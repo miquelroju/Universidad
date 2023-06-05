@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAAE8800-AE75-BFA2-8C94-E46ECE8739EC" containerWithKeyObject="24049AA4-66B2-0C57-3240-0406331A84E0" localFKIndex="61BD5AE3-6E33-0FF0-4555-E1F1794EB891" name="ARBITRATGE_COL·LEGIAT_FK">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:34:53 UTC</createdTime>
+<generatorID>933EC50D-5AB2-6DCB-3D9B-85B542F4C20F</generatorID>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<referredTableLongName>COL·LEGIAT</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<referredTableID>7772EEB1-D91A-ABC1-8331-AF82BFF0234A</referredTableID>
+<keyObject>7A72570F-5097-6045-B516-CC057CB7E655</keyObject>
+<referredKeyID>7A72570F-5097-6045-B516-CC057CB7E655</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_colegiat</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

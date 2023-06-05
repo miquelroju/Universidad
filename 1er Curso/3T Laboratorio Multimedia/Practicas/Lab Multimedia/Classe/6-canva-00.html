@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<canvas id="myCanvas" width="300" height="300"
+        style="border:1px solid #d3d3d3;"></canvas>
+
+<script>
+    var myCanvas = document.getElementById("myCanvas");
+    var mcContext = myCanvas.getContext("2d");
+    mcContext.strokeStyle = "#FF0000";
+    mcContext.moveTo(10,290);
+    mcContext.lineTo(290,10);
+    mcContext.stroke();
+</script>
+
+</body>
+</html>

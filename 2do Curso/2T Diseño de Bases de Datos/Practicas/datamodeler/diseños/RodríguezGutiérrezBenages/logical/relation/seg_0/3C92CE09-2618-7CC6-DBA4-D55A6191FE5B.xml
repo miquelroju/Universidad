@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="arbitratge" directorySegmentName="seg_0" id="3C92CE09-2618-7CC6-DBA4-D55A6191FE5B">
+<createdBy>mique</createdBy>
+<createdTime>2023-03-09 15:51:55 UTC</createdTime>
+<ownerDesignName>RodríguezGutiérrezBenages</ownerDesignName>
+<engineerTo>
+<item key="A352CA32-3AB3-1FC9-4D67-894040B2911C" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<nameOnSource>és arbitrat per</nameOnSource>
+<nameOnTarget>arbitra</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BFF8304E-BBC8-9A9A-CEDC-CB4977E26744</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>93834473-E78A-E75E-AC67-BB2431C9E646</targetEntity>
+<transferable>true</transferable>
+</Relation>

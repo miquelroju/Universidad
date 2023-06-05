@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function formulaHero(a,b,c) {
+            var s = (a+b+c)/2;
+            return Math.sqrt(s*(s-a)*(s-b)*(s-c));
+        }
+    
+        function enunciat1() {
+            var A = parseInt(document.getElementById("A").value);
+            var B = parseInt(document.getElementById("B").value);
+            var C = parseInt(document.getElementById("C").value);
+    
+            document.getElementById("resultat").innerHTML=formulaHero(A,B,C);
+        }
+    </script>
+</head>
+<body>
+    <fieldset>
+        <legend>Exercicis enunciats Tema 1</legend>
+        <p>
+            <label for="A">Entra els costats del triangle: A</label> <input id="A" type="text" size="3" maxlength="3">
+            <label for="B">B: </label> <input id="B" type="text" size="3" maxlength="3">
+            <label for="C">C: </label> <input id="C" type="text" size="3" maxlength="3">
+        </p>
+        <p>
+            <input type="button" id="Executa" value="Calcula l'area del triangle" onClick="enunciat1();">
+            <span id="resultat"></span>
+        </p>
+    </fieldset>
+</body>
+</html>

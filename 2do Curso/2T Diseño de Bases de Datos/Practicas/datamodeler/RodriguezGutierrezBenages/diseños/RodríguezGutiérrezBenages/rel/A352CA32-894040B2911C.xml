@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A352CA32-3AB3-1FC9-4D67-894040B2911C" mainViewID="C61AB91A-550D-83F3-2CB1-54505C39A9A0">
+<createdBy>mique</createdBy>
+<createdTime>2023-02-24 07:20:19 UTC</createdTime>
+<ownerDesignName>lligaFutbolProfessionalCDM</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
