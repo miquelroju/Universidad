@@ -7,43 +7,57 @@ import com.tecnocampus.blackjack.persistence.GameRepository;
 import com.tecnocampus.blackjack.persistence.UserRepository;
 import org.springframework.stereotype.Controller;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Controller
 public class GameController {
-
     private UserRepository userRepository;
     private GameRepository gameRepository;
 
-    public GameController (UserRepository userRepository, GameRepository gameRepository) {
+    public GameController(UserRepository userRepository, GameRepository gameRepository) {
         this.userRepository = userRepository;
         this.gameRepository = gameRepository;
     }
 
-    public GameDTO createGame(GameDTO gameDTO, String userId) throws Exception {
-        Game game = new Game(gameDTO);
+    public GameDTO createGame(String userId) throws Exception {
+        Game game = new Game();
         User user = userRepository.findById(userId).get();
         user.addGame(game);
-        game.addUser(user);
-        gameRepository.save(game);
-        userRepository.save(user);
-        return new GameDTO(game);
-    }
-
-
-    public GameDTO hitCard(String id) {
-        Game game = gameRepository.findById(id).get();
-        game.hitCard();
+        game.setUser(user);
         gameRepository.save(game);
         return new GameDTO(game);
     }
 
-    public GameDTO getGame(String id) {
-        return new GameDTO(gameRepository.findById(id).get());
+    public List<GameDTO> getAllGamesOfUser(String userId) {
+        List<Game> result = new ArrayList<>();
+        User user = userRepository.findById(userId).get();
+        Iterator<Game> iterator = this.gameRepository.findAllByUser(user).iterator();
+        iterator.forEachRemaining(result::add);
+        return result.stream().map(x -> new GameDTO(x)).collect(Collectors.toList());
     }
 
-    public void deleteAllGames(String id) {
-        // Gets the user's id via parameter and deletes all games associated with that user
-        User user = userRepository.findById(id).get();
-        gameRepository.deleteAll(user.getGames());
+    public GameDTO getCard(String userId, String gameId) throws Exception {
+        Game game = gameRepository.findById(gameId).get();
+        game.checkValidUser(userId);
+        game.extractCard();
+        gameRepository.save(game);
+        return new GameDTO(game);
+    }
 
+    public GameDTO setToStand (String userId, String gameId) throws Exception {
+        Game game = gameRepository.findById(gameId).get();
+        game.checkValidUser(userId);
+        game.setStand();
+        gameRepository.save(game);
+        return new GameDTO(game);
+    }
+
+    public GameDTO getGame(String userId, String gameId) throws Exception {
+        Game game = gameRepository.findById(gameId).get();
+        game.checkValidUser(userId);
+        return new GameDTO(game);
     }
 }

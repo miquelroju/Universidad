@@ -35,7 +35,7 @@ public class UserController {
     }
 
 
-    public UserDTO updateUser(String userId, UserDTO userDTO) {
+    public UserDTO updateUser(String userId, UserDTO userDTO) throws Exception {
         User userToUpdate = repository.findById(userId).get();
         userToUpdate.updateUser(userDTO);
         this.repository.save(userToUpdate);

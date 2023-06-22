@@ -63,7 +63,7 @@ public class User {
         throw new Exception();
     }
 
-    private void updatePassword(String newPassword){
+    private void updatePassword(String newPassword) throws Exception {
         checkPassword(newPassword);
         this.password = newPassword;
     }
@@ -104,7 +104,7 @@ public class User {
         return numberOfGamesLost;
     }
 
-    public void updateUser(UserDTO userDTO) {
+    public void updateUser(UserDTO userDTO) throws Exception {
         updatePassword(userDTO.getPassword());
         updateName(userDTO.getName());
     }

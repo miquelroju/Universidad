@@ -7,16 +7,15 @@ import com.tecnocampus.blackjack.persistence.UserRepository;
 import org.springframework.stereotype.Controller;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 @Controller
 public class UserController {
     private UserRepository userRepository;
-    private GameRepository gameRepository;
 
-    public UserController(UserRepository userRepository, GameRepository gameRepository) {
+    public UserController(UserRepository userRepository) {
         this.userRepository = userRepository;
-        this.gameRepository = gameRepository;
     }
 
     public UserDTO createUser(UserDTO userDTO) throws Exception {
@@ -25,21 +24,23 @@ public class UserController {
         return new UserDTO(user);
     }
 
-    public UserDTO getUser(String userId) {
-        return new UserDTO(userRepository.findById(userId).get());
+    public List<UserDTO> getAllUsers() {
+        List<User> result = new ArrayList<>();
+        Iterator<User> iterator = this.userRepository.findAll().iterator();
+        iterator.forEachRemaining(result::add);
+        return result.stream().map(x -> new UserDTO(x)).collect(java.util.stream.Collectors.toList());
     }
 
-    public void deleteUser(String userId) {
-        User user = userRepository.findById(userId).get();
-        userRepository.delete(user);
-        // gameRepository.deleteAll(user.getGames());
+    public UserDTO updateUser(String userId, UserDTO userDTO) {
+        User userToUpdate = userRepository.findById(userId).get();
+        userToUpdate.updateUser(userDTO);
+        this.userRepository.save(userToUpdate);
+        return new UserDTO(userToUpdate);
     }
 
-    public List<UserDTO> getUsers() {
-        ArrayList<UserDTO> users = new ArrayList<>();
-        for (User user : userRepository.findAll()) {
-            users.add(new UserDTO(user));
-        }
-        return users;
+    public void deleteUserById(String id) {
+        userRepository.deleteById(id);
     }
+
+
 }

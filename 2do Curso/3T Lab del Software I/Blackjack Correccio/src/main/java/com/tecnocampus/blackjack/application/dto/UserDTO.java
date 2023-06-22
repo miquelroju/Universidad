@@ -1,10 +1,6 @@
 package com.tecnocampus.blackjack.application.dto;
 
-import com.tecnocampus.blackjack.domain.Game;
 import com.tecnocampus.blackjack.domain.User;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class UserDTO {
     private String id;
@@ -12,26 +8,30 @@ public class UserDTO {
     private String email;
     private String password;
     private String date;
-    private int wonGames;
-    private int lostGames;
-    private int drawGames;
-    private int standingGames;
-    private int activeGames;
 
-    private List<Game> games = new ArrayList<com.tecnocampus.blackjack.domain.Game>();
+    private int numberGames;
+    private int numberWonGames;
+    private int numberLostGames;
 
-    public UserDTO(User user) {
+    public UserDTO() {}
+
+    public UserDTO (String email, String username, String password, String date) {
+        this.email = email;
+        this.date = date;
+        this.username = username;
+        this.password = password;
+    }
+
+    public UserDTO (User user) {
+        if(user==null) throw new RuntimeException();
         this.id = user.getId();
-        this.username = user.getUsername();
-        this.email = user.getEmail();
         this.password = user.getPassword();
+        this.username = user.getUsername();
         this.date = user.getDate();
-        this.wonGames = user.getWonGames();
-        this.lostGames = user.getLostGames();
-        this.drawGames = user.getDrawGames();
-        this.standingGames = user.getStandingGames();
-        this.activeGames = user.getActiveGames();
-        this.games.addAll(user.getGames());
+        this.email = user.getEmail();
+        this.numberGames = user.getNumberGames();
+        this.numberWonGames = user.getNumberWonGames();
+        this.numberLostGames = user.getNumberLostGames();
     }
 
     public String getId() {
@@ -54,55 +54,16 @@ public class UserDTO {
         return date;
     }
 
-    public int getWonGames() {
-        return wonGames;
+    public int getNumberGames() {
+        return numberGames;
     }
 
-    public int getLostGames() {
-        return lostGames;
+    public int getNumberWonGames() {
+        return numberWonGames;
     }
 
-    public int getDrawGames() {
-        return drawGames;
+    public int getNumberLostGames() {
+        return numberLostGames;
     }
 
-    public int getStandingGames() {
-        return standingGames;
-    }
-
-    @Override
-    public String toString() {
-        return "UserDTO{" +
-                "id='" + id + '\'' +
-                ", username='" + username + '\'' +
-                ", email='" + email + '\'' +
-                ", date='" + date + '\'' +
-                ", wonGames=" + wonGames +
-                ", lostGames=" + lostGames +
-                ", drawGames=" + drawGames +
-                ", standingGames=" + standingGames +
-                '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (o == null) return false;
-        if (!(o instanceof UserDTO)) return false;
-
-        UserDTO userDTO = (UserDTO) o;
-
-        return this.id.equals(userDTO.getId());
-    }
-
-    public void startGame() {
-        this.activeGames++;
-    }
-
-    public List<GameDTO> getGames() {
-        List<GameDTO> gameDTOs = new ArrayList<>();
-        for (Game game : games) {
-            gameDTOs.add(new GameDTO(game));
-        }
-        return gameDTOs;
-    }
 }
